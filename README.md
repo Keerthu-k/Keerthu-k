@@ -8,68 +8,46 @@ Currently focused on **Generative AI**, including agent-based systems and vision
 
 ## 👩‍💻 About Me
 
-- AI/ML Developer with 2+ years of industry experience  
-- Strong focus on backend development and service-oriented architecture  
-- Experience building microservices and RESTful APIs  
-- Working with Python and Node.js for scalable backend systems  
-- Involved in Generative AI, agentic systems, and vision-based AI features  
-- Building familiarity with React and Next.js for product-level development  
-- Prefer clear, maintainable solutions and steady iteration  
+- AI/ML Developer with 2+ years of experience  
+- Backend & service-oriented architecture focus  
+- Microservices and REST API development  
+- Generative AI and agent-based systems  
+- Growing into modern frontend development  
+- Prefer clear, maintainable solutions  
 
 ---
 
 ## 🛠 Skills & Tools
 
-### 🚀 Core Backend
-- Python  
-- JavaScript  
-- TypeScript  
-- Node.js  
-- Express  
-- RESTful API Development  
-- Microservices Architecture  
+### 🚀 Core Backend  
+`Python` `JavaScript` `TypeScript` `Node.js` `Express`  
+`REST APIs` `Microservices`
 
-### 🤖 AI & Applied GenAI
-- Generative AI concepts  
-- Agentic systems  
-- Vision-based GenAI use cases  
-- LLM-based feature integration  
-- Prompt design and AI-assisted workflows  
-- API-driven AI services  
+### 🤖 AI & Applied GenAI  
+`Generative AI` `Agentic Systems` `Vision AI`  
+`LLM Integration` `Prompt Design` `AI Workflows`
 
-### 🎨 Frontend (Growing Focus)
-- React  
-- Next.js  
-- Basic UI development and component usage  
+### 🎨 Frontend  
+`React` `Next.js`
 
-### 🔧 Workflow & Tools
-- Git  
-- Agile practices  
-- Docker (working knowledge)  
-
-### 🌟 Soft Skills
-- Clear communication  
-- Reliable and consistent  
-- Adaptable learner  
-- Detail-oriented and team-focused  
+### 🔧 Workflow  
+`Git` `Docker` `Agile`
 
 ---
 
-## 🌱 Vision & Interests
+## 🌱 Vision
 
-I’m interested in building software where AI is used in practical, meaningful ways. My goal is to grow as an engineer across backend systems and product-facing development while contributing to real-world AI-powered solutions.
+Building software where AI is applied in meaningful, real-world ways while continuing to grow across backend systems and product development.
 
 ---
 
 ## 🤝 Open to Opportunities
 
-I’m open to roles and collaborations focused on solving real-world problems — especially those involving emerging ideas in AI, agentic systems, and modern software development.
+Interested in roles and collaborations focused on real-world AI systems and modern software development.
 
 ---
 
-## 📬 Connect With Me
+## 📬 Connect
 
-- 📧 Email: [Keerthukarthikesan4935@gmail.com](mailto:Keerthukarthikesan4935@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/keerthukarthikesan-profile](https://www.linkedin.com/in/keerthukarthikesan-profile/)  
-
----
+📧 [Keerthukarthikesan4935@gmail.com](mailto:Keerthukarthikesan4935@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/keerthukarthikesan-profile/)
