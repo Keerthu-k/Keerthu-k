@@ -43,7 +43,7 @@ I’m interested in building software where AI is used in practical, meaningful 
 
 ## 🤝 Open to Opportunities
 
-I’m open to roles and collaborations focused on solving real-world problems — especially those involving emerging ideas in AI, agentic systems, and modern software development.
+I’m open to roles and collaborations focused on solving real-world problems especially those involving emerging ideas in AI, agentic systems, and modern software development.
 
 ---
 
