@@ -37,13 +37,13 @@ Currently focused on **Generative AI**, including agent-based systems and vision
 
 ## 🌱 Vision
 
-Building software where AI is applied in meaningful, real-world ways while continuing to grow across backend systems and product development.
+I’m interested in building software where AI is used in practical, meaningful ways. My goal is to grow as an engineer across backend systems and product-facing development while contributing to real-world AI-powered solutions.
 
 ---
 
 ## 🤝 Open to Opportunities
 
-Interested in roles and collaborations focused on real-world AI systems and modern software development.
+I’m open to roles and collaborations focused on solving real-world problems — especially those involving emerging ideas in AI, agentic systems, and modern software development.
 
 ---
 
