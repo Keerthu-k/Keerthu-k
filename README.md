@@ -1,19 +1,20 @@
 # 👋 Hi, I’m Keerthana K
 
-AI/ML Developer with 2+ years of industry experience building backend systems and applied AI features. I focus on building reliable services, integrating AI capabilities into products, and steadily expanding into modern frontend development to better understand end-to-end systems.
+I’m an AI/ML Developer with 2+ years of experience building backend systems and delivering practical AI features in production environments. I enjoy solving real product problems and turning ideas into reliable, scalable solutions.
 
-Currently focused on **Generative AI**, including agent-based systems and vision-driven AI use cases in practical product environments.
+Generative AI has been a core part of my work, including agent-based systems and vision-driven applications designed for real-world use. My focus sits at the intersection of backend engineering and applied AI, where strong architecture and clean implementation matter just as much as model performance.
+
+I’m also exploring modern frontend development to better understand the complete lifecycle of building and shipping software.
 
 ---
 
-## 👩‍💻 About Me
+## 👩‍💻 What I Do
 
-- AI/ML Developer with 2+ years of experience  
-- Backend & service-oriented architecture focus  
-- Microservices and REST API development  
-- Generative AI and agent-based systems  
-- Growing into modern frontend development  
-- Prefer clear, maintainable solutions  
+* Backend system design and development
+* Microservices and REST API development
+* Generative AI and agent-based systems
+* Applied computer vision solutions
+* Clean, maintainable, production-focused code
 
 ---
 
