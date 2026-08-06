@@ -1,6 +1,6 @@
 # 🌷 Hi, I’m **Keerthana K**
 
-I’m an **AI/ML Developer** with 2+ years of experience building backend systems and delivering AI features in production environments.
+I’m an **AI/ML Developer** with 3+ years of experience building backend systems and delivering AI features in production environments.
 
 I build backend systems that bring **applied AI** into real products. From designing scalable architectures to developing intelligent services, my focus is on building reliable systems that translate ideas into working solutions. I’ve worked with *generative AI*, *agent-based workflows*, and *vision-driven applications* deployed in production.
 
@@ -25,15 +25,20 @@ I’m also exploring modern frontend development to better understand the full l
 `Generative AI`  `Agentic Systems`  `Vision AI`  
 `LLM Integration`  `Prompt Design`  `AI Workflows`
 
+### Collaboration  
+`Cross-functional Collaboration`  `Mentorship`  `Stakeholder Communication`
+
 ## 🌱 Vision
 
 I’m interested in building software where **AI is applied in meaningful, thoughtful ways**. My goal is to grow across backend systems and product-facing development while contributing to well-engineered AI-powered solutions.
 
 ## 🤝 Open to Opportunities
 
-I’m open to roles and collaborations focused on solving real-world problems, especially in AI, agentic systems, and modern software development.
+I’m open to full-time, freelance, and contract roles, remote, hybrid, or onsite, especially around AI, agentic systems, and modern software development. Based in Pondicherry, and open to opportunities in Chennai and Bengaluru too.
 
 ## 📬 Connect
 
-- [Keerthukarthikesan4935@gmail.com](mailto:Keerthukarthikesan4935@gmail.com)  
-- [LinkedIn](https://www.linkedin.com/in/keerthukarthikesan-profile/)
+- [Portfolio](https://keerthu.tech/)  
+- [GitHub](https://github.com/Keerthu-k)  
+- [LinkedIn](https://www.linkedin.com/in/keerthukarthikesan/)  
+- [keerthukarthikesan4925@gmail.com](mailto:keerthukarthikesan4925@gmail.com)
