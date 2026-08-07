@@ -10,6 +10,7 @@
 - Stakeholder Communication
 - User Experience (UX) Design
 - Data Analysis and A/B Testing
+- Requirements Gathering
 - Competitive Analysis
 - Figma, Notion
 - ERPNext implementation (Sales, Purchase, Accounting, Inventory)
@@ -25,24 +26,30 @@
 ## AI / ML Engineering
 - LLM Integration (OpenAI, Google Gemini, Groq/Llama)
 - Multi-provider LLM routing and fallback design
-- Prompt Engineering, structured/schema-constrained generation
+- Agentic AI development, Multi-agent systems (LangGraph, LangChain, CrewAI)
+- Prompt Engineering: structured/schema-constrained generation, chain-of-thought and few-shot prompting
 - Retrieval-Augmented Generation (RAG) Pipelines
-- Agent frameworks: LangGraph, LangChain, CrewAI
 - Function calling, Model Context Protocol (MCP)
 - Hugging Face, Model Evaluation, Fine-Tuning
-- LLM Evaluation, Benchmarking, and Observability (internal benchmark suites, token-cost/latency tracking)
+- Transformer-based NLP and text classification (BERT, SetFit)
+- Small Language Models (SLMs)
+- LLM Evaluation, Benchmarking, Observability, and LLMOps (internal benchmark suites, token-cost/latency tracking)
 - Trust and Safety system design (identity verification, content moderation workflows)
+- Multimodal generation routing (image/video: OpenAI GPT Image 1, Replicate Flux)
 - Vision classification (CLIP/SigLIP2-based), OpenCV
 - Semantic Search and Embeddings
+- Data analysis and ML tooling: NumPy, Pandas, Matplotlib, Plotly
 
 ## Backend and Languages
 - Python
-- FastAPI
+- SQL
+- FastAPI, Flask
+- Async/concurrent programming (Python, FastAPI)
 - TypeScript / JavaScript
 - Node.js
-- REST API Design
+- REST API Design, Microservices
 - Beanie ODM, SQLAlchemy, Prisma ORM
-- Background/event-driven jobs (Inngest, Celery, Redis)
+- Background/event-driven jobs and job scheduling (Inngest, Celery, Redis)
 - Role-Based Access Control (RBAC)
 
 ## Frontend and Mobile
@@ -55,6 +62,7 @@
 ## Databases and Infrastructure
 - MongoDB
 - PostgreSQL
+- MySQL
 - SQLite
 - Firebase (Auth, Firestore)
 - Supabase
@@ -62,10 +70,10 @@
 - Google Cloud Platform (GCP): Cloud Run, Cloud Storage, Cloud Functions, Cloud SQL, Artifact Registry, Workload Identity Federation
 
 ## Tools and Workflow
-- Docker
-- GitHub Actions, CI/CD
-- Git
+- Docker, Containerization
+- GitHub Actions, CI/CD pipelines
+- Git, GitHub Copilot
 - Postman
-- Linux development environment
+- Linux development environment, Bash
 - AI-assisted development (Claude API, Claude Code)
 - Sentry (error and performance monitoring)
