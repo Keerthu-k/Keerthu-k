@@ -1,0 +1,9 @@
+# About
+
+I'm an AI Software Engineer with three plus years of experience building AI-driven products and backend systems. I currently work as a Founding Engineer at TripKnot (Aneeras LLP), where architecture decisions and product decisions sit under the same role rather than being split across separate titles. My focus is applied AI: bringing LLMs, AI agents, and intelligent workflows into production applications that real people use, not just proof-of-concept demos.
+
+Most of my day-to-day work is designing and building scalable backend systems in Python and FastAPI, and integrating LLMs into those systems through RAG pipelines and agent-based workflows so they behave in an intelligent, context-aware way instead of AI being bolted on as an afterthought. I care about turning complex AI capabilities into solutions that are maintainable and easy for a team to extend, not just impressive in a demo.
+
+Working in a startup environment, first at YUVABE and now at TripKnot, has given me experience across the full product lifecycle: exploring an idea, building a proof of concept, and taking it all the way through to a production deployment people actually rely on. That environment also taught me to adapt quickly and take real ownership of what I build, from architecture decisions down to the infrastructure that keeps it running.
+
+Alongside the engineering work, I've also led product-facing work directly, including ERPNext implementations spanning requirements gathering, UAT, and go-live, and translating business needs into technical specs. That means I'm just as comfortable in a requirements conversation as I am in a code review. What matters most to me day to day is doing the basics well: clear communication, close collaboration with the people around me, and strong engineering practices, because that's what actually makes a system reliable and useful over time, not just clever.
