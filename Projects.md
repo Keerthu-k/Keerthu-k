@@ -1,48 +1,172 @@
-# Projects
+# Projects Portfolio
 
-## TripKnot
-**FastAPI · MongoDB (Beanie ODM) · Gemini/Groq · Next.js · Expo/React Native · GCP**
+## 1. TripKnot
+**AI-Assisted Social Travel Platform**  
+*Founding Engineer | April 2026 - Present | Team of 5*  
+**Production Releases:** [Google Play Store](https://play.google.com/store/apps/details?id=com.tripknot.app&pcampaignid=web_share) | [Apple App Store](https://apps.apple.com/in/app/tripknot/id6781707127)
 
-A social, AI-assisted travel itinerary planning product: a FastAPI backend with an LLM-driven itinerary generator and a trust and safety system, a Next.js admin console, and an Expo/React Native mobile app. Built end to end as one of two founding engineers, from architecture through product decisions, DevOps, and cloud deployment.
+### Project Overview
+TripKnot is an AI-assisted travel itinerary planning platform designed to make group trip curation social and seamless. The platform coordinates a FastAPI backend, a Next.js admin and business console, and an Expo and React Native mobile application to deliver personalized day-by-day itineraries.
 
-A hand-built place-scoring and diversity algorithm curates a place pool from user preferences and budget, then an LLM layer (Gemini as the primary model, Groq's Llama 3 as an automatic fallback, both constrained to a structured JSON schema) structures it into personalized, diverse day-by-day itineraries in about 10 seconds. Identity verification runs through an Aadhaar/KYC flow with an admin review queue, including a dedicated path for trips where participants don't already know each other. A standalone scoring service ranks places, destinations, and states by trending and popularity using time-decay math, and a companion image pipeline vets destination photos for watermarks and quality before they go live. An ETL pipeline with duplicate detection and validation safeguards fed 7,000-plus place records into the production database. Deployed on Google Cloud Run with GitHub Actions CI/CD (deployment time cut to about 3 minutes) and Sentry monitoring across the backend and mobile app.
+### Technical Architecture & Decisions
+*   **AI Itinerary Engine:** Designed and implemented a place-scoring and diversity algorithm that curates a high-quality place pool from user preferences and budgets. It blends log-scaled popularity with rating counts, landmark designations, trending signals, and hidden-gem flags. It uses seed jitter of twelve to eighteen percent to ensure repeat requests generate distinct plans, an anchor mechanism to guarantee top landmarks are included, and round-robin category filling.
+*   **LLM Orchestration:** Developed an LLM layer that handles structuring and scheduling over the curated place pool. It utilizes Google Gemini as the primary model behind a Pydantic-constrained JSON schema, with Groq Llama 3 as an automatic fallback, tracking token cost and latency on every request.
+*   **Trust and Identity Verification:** Built an Aadhaar and KYC identity-verification system specifically for strangers trips where participants join travelers they do not already know, managing trip and user data models, backend validation, and the administrative review UI.
+*   **Standalone Scoring Service:** Engineered a microservice calculating trending and popularity rankings in dependency order across places, destinations, and states using time-decay math with a forty-eight-hour half-life, with fully tunable configuration thresholds.
+*   **DevOps and CI/CD:** Deployed containerized backend services on Google Cloud Run in the asia-south1 region. Configured GitHub Actions CI/CD with GCP Workload Identity Federation, eliminating long-lived cloud credentials, and integrated Sentry monitoring across mobile and backend.
+*   **ETL and Data Ingestion:** Supported the development of an ETL tool that validates and ingests destination data from spreadsheets and CSVs, handling slug generation, geocoding, and image parsing, helping process over 7,480 place records into the production database.
+*   **B2B Monetization and Partner Portal:** Engineered the business side end to end. Built a tiered subscription model featuring Free, Essential, and Growth plans paired with a commission-only, pay-as-you-earn alternative. Gated listing visibility, analytics depth, campaign quotas, and AI itinerary priority to corresponding tiers. Developed multi-step, vertical-specific onboarding flows for hotels, restaurants, and travel agencies.
+*   **B2B Commission Ledger:** Programmed an automated commission-billing ledger for the pay-as-you-earn model that transparently calculates and displays the split: platform category commissions of five to ten percent, platform fees of two percent, and payment gateway pass-throughs as distinct line items.
 
-## Auromics (ThreadOps): Manufacturing Management System
-**Next.js 15 · TypeScript · Firebase (Firestore, Auth) · Tailwind CSS · shadcn/ui**
+### Technology Stack
+*   **Backend:** FastAPI, Python, MongoDB Beanie ODM, Redis, Pydantic, Streamlit proof of concept
+*   **Frontend & Mobile:** Next.js, React, TypeScript, Expo, React Native, Tailwind CSS, shadcn UI
+*   **Infrastructure:** GCP Cloud Run, Google Cloud Storage, Workload Identity Federation, GitHub Actions, Docker, Sentry, SQS-style tasks
 
-A solo freelance build, from the first line of code to a deployed product, with full ownership of the architecture, data model, and UI. Built for Auromics, an Auroville-based garment manufacturer that exports and imports globally, replacing the manual registers and spreadsheets the factory was running production on with a single source of truth for orders, thread inventory, client accounts, and payroll.
+### Key Highlights
+*   Engineered an AI itinerary engine that curates a place pool and generates personalized, budget-aware day-by-day plans in under nine seconds.
+*   Designed and built an Aadhaar and KYC identity-verification system for trips with unfamiliar participants, spanning backend data models and an admin review console.
+*   Designed a standalone scoring service computing trending and popularity rankings through time-decay, multi-factor models, built to remain stable from pre-launch traffic through scale.
+*   Built the admin console and backend endpoints for content moderation and analytics, replacing hard deletes with a soft-cancel, audit-logged moderation workflow.
+*   Shipped mobile features spanning location-aware personalization, a region-browsable search feature, and notification preferences in React Native and Expo.
+*   Set up CI/CD and cloud deployment for the backend using GitHub Actions and GCP Cloud Run, cutting deployment time to 145 seconds with Sentry monitoring.
+*   Supported the geocoding ETL and photo pipeline, co-building a vision classifier that screened 22,400+ photos and helped process over 7,480 records.
+*   Shaped the platform's monetization model end to end, pairing tiered subscriptions with a commission-only alternative and vertical-specific onboarding for local partners.
+*   Integrated sponsored search rankings and priority recommendations in the AI itinerary engine, aligning paid business tiers with scoring and placement results.
 
-The core of the system is a given-and-receive workflow: raw goods go out to a contractor or worker, and the return gets logged against that same entry, with support for partial receipts, mid-job reallocation between workers, and automatic overdue flags on anything outstanding for more than 15 days. Orders move through a lifecycle with a built-in review loop: once a contractor marks their assigned work complete, it goes to the admin for review, who can approve it straight through to completed or reject it with a reason, which reopens the order and notifies the contractor. Confirming an order automatically allocates thread from inventory based on each product's per-size configuration. Access is two-tier: an admin role with full control over every module, and a limited contractor portal scoped to that contractor's own assigned work, so external production partners can update progress without seeing anyone else's data or the factory's financials.
+---
 
-The contractor side runs as a mobile-first, PWA-ready interface: contractors log in and see only their own assigned orders, assign local workers to specific items with individual quantities, and push status and progress updates that sync straight to the admin dashboard in real time. Shipped in phases: the first pass covered inventory, orders, products, clients, and contractors end to end; the second refined the order state machine and built out the fuller contractor mobile workflow, including multi-item orders where different workers can be assigned different quantities against different items on the same order.
+## 2. Auromics
+**Garment Manufacturing Inventory & Production Management System**  
+*Freelance Software Engineer | August 2026 | Freelance Engagement*
 
-Payroll runs directly off that production data. At month end, the salary module computes net pay per worker (completed quantity times wage, plus convenience allowance and incentives, minus deductions) and generates a print-ready bank payment letter formatted to match what factories already submit to their bank branch. Workers missing bank details get an amber warning and are left out of that letter specifically, though they still show up in the broader salary summary. Reporting spans seven tabbed views, including a wages register and an outstanding-work report grouped by client, built for print as much as for the screen since factory staff still work off paper.
+### Project Overview
+Auromics is a cloud-based inventory, workflow, and production management system built for garment and knitting manufacturers. The platform replaces manual registers and spreadsheet-based tracking with a unified source of truth for orders, thread inventory, contractor assignments, contractor staff management, piece-rate wage calculation, and payroll processing.
 
-A few deliberate design calls: notifications are idempotent, so the overdue-check job can run on every dashboard load without spamming duplicate alerts; thread inventory has a double-deduction guard so an order re-save can't accidentally deduct stock twice; and the Firestore data model is denormalized on purpose for read performance, a tradeoff that's documented rather than hidden, since it means master-record edits don't retroactively touch historical entries.
+### Technical Architecture & Decisions
+*   **Given-and-Receive Workflow:** Modeled a production ledger where raw materials are issued to contractors or internal workers, and returned pieces are recorded against the same entry. The system supports partial receipts, mid-job reallocations between workers, and automatic fifteen-day overdue flags.
+*   **Thread Inventory & Stock Deduction:** Programmed a real-time inventory manager tracking total, allocated, and available thread stock. Implemented a double-deduction guard using a special inventory transaction key to prevent duplicate stock deductions when order records are re-saved.
+*   **Two-Tier Role and Access Model:** Built a secure authorization model splitting the application between an Admin role with full CRUD permissions and a limited Contractor Portal. Contractors log in via a mobile-first, web-ready interface to view and update only their assigned orders and manage their own staff roster.
+*   **Automated Payroll Module:** Engineered a payroll processor that computes monthly wages based on piece-rate completions, convenience allowances, incentives, and deductions. It automatically generates formal, print-ready bank payment letters matching State Bank of India formatting.
+*   **Reporting Architecture:** Created seven tabbed reporting modules including a Wages Register, Given Report, Receive Report, Inventory Report, Employee Summary, Order Master, and Given Outstanding Report, optimized for both desktop viewing and A4 landscape printing.
+*   **Denormalized NoSQL Schema:** Structured the database within Firebase Firestore using a denormalized schema for high-speed reads, balancing historical data preservation against read performance.
 
-## KittyKat AI Creative Platform
-**FastAPI · MongoDB · LangGraph · Next.js · Firebase · GCP**
+### Technology Stack
+*   **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS, shadcn UI
+*   **Backend & Database:** Firebase Firestore NoSQL, Firebase Authentication, Firebase Cloud Functions
+*   **Hosting & Deployment:** Vercel, progressive web application configurations
+*   **Print Integration:** Native Browser Print API, CSV blob exports
 
-A creative platform for brand and campaign management, built with a team of engineers. The chatbot is built on LangGraph as a router-driven multi-agent graph, with specialist nodes handling branding, campaigns, moodboards, prompting, and generation. I built the chat-driven UX for the brand and campaign management flows, and worked on the image and video generation system: model configuration and routing across providers (OpenAI's GPT Image 1, Replicate's Flux family, and others) through a discriminated union pattern that lets new models plug in without hardcoded per-model logic, along with prompt engineering for generation quality. I also built the moodboard pipeline, including CLIP-based vector search that powers reference-image auto-fill and semantic search across the asset library, and the product extraction pipeline that detects and isolates product assets from brand images. Multi-tenant by design, with credit tracking, Firebase auth, and real-time updates over server-sent events.
+### Key Highlights
+*   Architected a full-stack inventory and payroll system, owning the data model from the first line of code through cloud deployment.
+*   Automated monthly payroll calculations, turning piece-rate completions and wage structures into print-ready bank payment letters, cutting manual operations by sixty percent.
+*   Scoped a two-tier access model, limiting contractor portals to assigned orders and protecting sensitive financial details.
+*   Shipped a mobile-first contractor workflow, allowing external partners to assign staff, log progress, and sync updates to the admin dashboard in real time.
+*   Modeled a given-and-receive inventory workflow supporting partial receipts, worker reallocations, and automatic fifteen-day overdue flags.
+*   Implemented a denormalized Firestore schema with a double-deduction guard to prevent duplicate inventory stock deductions during re-saves.
 
-## AuroGurukul LMS Platform
-**Next.js · FastAPI · MongoDB · Firebase Auth · Retrieval-Augmented Generation (RAG) · Pinecone · LLMs**
+---
 
-An AI-driven learning management system with adaptive assessments and a RAG-based chatbot, backed by a Pinecone vector search pipeline, that gives learners real-time support instead of making them wait on a human; a 50-plus query internal benchmark showed an 80 percent drop in incorrect responses. Evaluated Frappe LMS first, then built a custom platform from scratch on Next.js, FastAPI, and MongoDB after concluding Frappe couldn't meet the product's requirements, including a full Test Management Module (test creation, question management, result submission, performance analytics). Built the analytics dashboards that track learner progress, along with the full auth flow (email verification, forgot and reset password) and both the frontend and backend end to end.
+## 3. KittyKat AI
+**Multi-Agent Brand and Campaign Management Platform**  
+*AI Backend Developer | October 2023 - March 2026 | Team Project at YUVABE*
 
-## OfferTracker
-**FastAPI · PostgreSQL · Supabase · React 19 · Vite · Tailwind CSS · D3.js**
+### Project Overview
+KittyKat AI is an enterprise creative platform for automated brand asset and marketing campaign management. It transforms complex, multi-step marketing workflows into a single conversational interface.
 
-A career intelligence platform for job seekers, built on the idea that a job search deserves more than a Kanban board. Most trackers just record what happened; OfferTracker is built to help explain why, tracking resume versions against outcomes, logging structured reflections after each interview stage, and surfacing skill gaps that keep showing up so they can actually be addressed.
+### Technical Architecture & Decisions
+*   **Multi-Agent LangGraph Framework:** Built the backend conversational assistant on LangGraph as a router-driven multi-agent graph across six specialized nodes. Individual nodes act as domain-specific specialists handling branding, campaign brief generation, moodboard assembly, prompt construction, and asset generation.
+*   **Multi-Provider Generation Routing:** Architected a provider-agnostic image and video generation router across OpenAI and Replicate. Used a discriminated union pattern to let new generative models plug in seamlessly without hardcoded model-specific logic.
+*   **CLIP-Based Moodboard Pipeline:** Built a semantic asset-search and reference-image auto-fill engine using CLIP-based vector embeddings, allowing designers to locate brand assets without manual tag entry.
+*   **Product Extraction Pipeline:** Integrated a product-extraction model that detects and isolates product assets from brand photography, preparing them for programmatic campaign generation.
+*   **SaaS Infrastructure:** Designed the backend for multi-tenant SaaS scale, introducing credit-tracking limits, Firebase Authentication, and real-time client updates over Server-Sent Events.
 
-The entry point is intentionally minimal (just company name and role title are required) so logging an application takes seconds, not minutes. Beyond the personal tracker, it has a lightweight social layer: follows, groups, and a shared post feed, plus quiet milestone tracking instead of points or leaderboards. The analytics dashboard covers pipeline funnels, response rates, and salary insights, built with D3.js.
+### Technology Stack
+*   **Core Backend:** FastAPI, Python, MongoDB, Pydantic, Server-Sent Events
+*   **AI & Agents:** LangGraph, LangChain, OpenAI API, Replicate API, CLIP Vector Search, Hugging Face
+*   **Databases & Cloud:** MongoDB, Firebase Auth, Google Cloud Platform
 
-## Soulfy
-**Next.js · Zustand · React Query · FFmpeg**
+### Key Highlights
+*   Shaped the conversational campaign interface for a multi-agent AI platform, translating a LangGraph backend into a single conversational workspace for non-technical marketing teams.
+*   Routed image and video generation across OpenAI and Replicate using a discriminated union pattern, allowing instant model swaps without blocking product delivery.
+*   Layered CLIP-based vector search into the moodboard pipeline, enabling automatic reference-image auto-fill without manual tagging.
+*   Built a product-extraction pipeline that isolates brand assets from photographs into a structured, reusable media library.
+*   Designed the multi-tenant SaaS architecture with credit-tracking limits, Firebase Authentication, and real-time updates over Server-Sent Events.
 
-A music app exploring mood-based listening, with client-side audio processing via FFmpeg and Zustand for state management.
+---
 
-## Semantic Search Demo
-**Python · Sentence Transformers · PyTorch**
+## 4. AuroGurukul
+**AI-Driven Adaptive Learning Management System**  
+*Lead Full-Stack Developer | October 2023 - March 2026 | Project Ownership at YUVABE*
 
-A small semantic search tool built on the all-MiniLM-L6-v2 sentence embedding model. Encodes a corpus of documents and a set of queries, then ranks results by cosine similarity, a compact demonstration of embedding-based retrieval outside of a larger RAG system.
+### Project Overview
+AuroGurukul is an AI-driven learning management platform designed to deliver personalized educational pathways. It replaces traditional linear course structures with adaptive assessment systems and instant AI tutor feedback.
+
+### Technical Architecture & Decisions
+*   **Build-vs-Buy Evaluation:** Evaluated Frappe LMS against the product's requirements. Concluding that open-source alternatives fell short on adaptive learning support and AI integration, led a custom, from-scratch platform build.
+*   **Pinecone-Backed RAG Study Assistant:** Engineered an on-demand AI study assistant using a Retrieval-Augmented Generation pipeline backed by a Pinecone vector database, cutting response errors by eighty percent across a fifty-query internal benchmark.
+*   **Adaptive Assessment Engine:** Coded the logic for assessments that dynamically adjust question difficulty based on real-time student performance, ensuring personalized student pace and learning curves.
+*   **Test Management Module:** Built a comprehensive evaluation framework supporting test creation, question bank categorization, automated grading, result submission, and cohort performance analytics.
+*   **Security & Auth:** Configured email verification, password reset, and role-based access controls separating student profiles from administrative and teaching staff.
+
+### Technology Stack
+*   **Frontend:** Next.js, React, Tailwind CSS, shadcn UI
+*   **Backend:** FastAPI, Python, MongoDB, Pydantic, Pinecone Vector DB
+*   **Authentication:** Firebase Auth
+
+### Key Highlights
+*   Evaluated open-source learning systems, then led a custom, from-scratch build on Next.js, FastAPI, and MongoDB after concluding existing options fell short.
+*   Engineered a Pinecone-backed RAG study assistant, reducing incorrect assistant responses by eighty percent across a fifty-query internal benchmark.
+*   Designed adaptive assessments and analytics dashboards that adjust question difficulty and track learner progress in real time across cohorts.
+*   Developed a complete Test Management Module covering test creation, automated grading, result submission, and performance analytics.
+*   Rolled out secure student and staff authentication flows including email verification and role-based access controls.
+
+---
+
+## 5. OfferTracker
+**Job Search Career-Intelligence Platform**  
+*Independent Project*
+
+### Project Overview
+OfferTracker is a professional career-intelligence web application built on the principle that a job search deserves more than a standard Kanban board. Most trackers merely log status; OfferTracker analyzes outcomes, tracking resume versions against response rates and capturing structured post-interview reflections.
+
+### Technical Architecture & Decisions
+*   **Data Funnel Analytics:** Designed a performance dashboard displaying pipeline funnels, resume callback percentages, and salary trends using D3.js.
+*   **Low-Friction UI Design:** Configured a minimal-input logging system requiring only the company name and role title to create an entry, ensuring logging takes seconds.
+*   **Subtle Gamification:** Structured the social collaboration features including follows, groups, and milestone sharing around a quiet accountability model, intentionally excluding leaderboards and competitive points to keep the user experience professional and supportive.
+
+### Technology Stack
+*   **Backend:** FastAPI, Python, PostgreSQL, Supabase
+*   **Frontend:** React 19, Vite, Tailwind CSS, D3.js for analytics
+
+### Key Highlights
+*   Designed a career-intelligence platform tracking resume versions against outcomes, helping job seekers see which resume versions correlate with callbacks.
+*   Developed funnels, response rate trackers, and salary-insight dashboards using FastAPI and D3.js to expose exactly where users lose offers.
+*   Designed the social interaction layer around a quiet accountability mechanic of milestone tracking without leaderboards, maintaining a professional user experience.
+*   Implemented a low-friction data entry flow requiring only the company name and role to log an application in under five seconds.
+
+---
+
+## 6. Soulfy
+**Mood-Based Music Application**  
+*Independent Project*
+
+### Project Overview
+Soulfy is an independent exploration into client-side audio rendering and state synchronization. It introduces real-time WebAssembly-based processing inside a modern web application, optimizing playback queues based on local device hardware constraints.
+
+### Key Highlights
+*   Engineered client-side WebAssembly FFmpeg decoders to preprocess audio file files inside the browser context, eliminating backend processing latency.
+*   Developed global state handlers using Zustand to coordinate responsive, thread-safe player queues across concurrent tab windows.
+
+---
+
+## 7. Semantic Search Demo
+**Embedding Cosine-Similarity Evaluator**  
+*Independent Project*
+
+### Project Overview
+A compact, highly targeted showcase of semantic document retrieval. It provides a pure, dependency-free demonstration of the vector-space mathematics that underpin modern Retrieval-Augmented Generation pipelines.
+
+### Key Highlights
+*   Developed a standalone Python evaluator utilizing the all-MiniLM-L6-v2 Sentence Transformer model to encode text data into high-dimensional vector spaces.
+*   Calculated semantic document relevance directly using PyTorch cosine-similarity math, establishing a baseline to measure search precision without a database wrapper.

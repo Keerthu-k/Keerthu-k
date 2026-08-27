@@ -9,4 +9,4 @@
 
 ## Open to Opportunities
 
-Based in Pondicherry, and open to opportunities in Chennai and Bengaluru too. Open to full-time, freelance, and contract roles, remote, hybrid, or onsite, especially around AI, agentic systems, and modern software development.
+Based in Pondicherry, and open to opportunities in Chennai and Bengaluru too. Open to full-time, freelance, permanent, remote, hybrid, or onsite opportunities. Keen to contribute to AI, Backend, and Full-Stack development projects, especially in the domains of Generative AI, SaaS, and product development.
