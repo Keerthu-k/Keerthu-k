@@ -7,7 +7,7 @@
 ### Certification Overview & Covered Domains
 This certification validates a practical and theoretical understanding of autonomous agentic systems. It focuses on how to design, coordinate, and orchestrate multiple LLM-based agents to perform complex, multi-step tasks.
 *   **Agentic Frameworks:** Hands-on experience building agents using Hugging Face's open-source library suite.
-*   **Tool Calling & Execution:** Developing models capable of using external tools (web browsers, calculators, databases) via Python functions or Model Context Protocol (MCP) integrations.
+*   **Tool Calling & Execution:** Developing models capable of using external tools (web browsers, calculators, databases) via Python functions.
 *   **System Reasoning:** Understanding the differences between chain-of-thought, self-reflection, and multi-agent systems.
 
 ### Direct Application in Her Work

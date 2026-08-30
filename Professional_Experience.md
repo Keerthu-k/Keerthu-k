@@ -6,7 +6,7 @@
 **Live Apps in Production:** [Google Play Store](https://play.google.com/store/apps/details?id=com.tripknot.app&pcampaignid=web_share) | [Apple App Store](https://apps.apple.com/in/app/tripknot/id6781707127)
 
 ### Role & Product Ownership
-As a Founding Engineer, the roles of system architecture and product strategy sit under a single unified responsibility. I co-built the social, AI-assisted travel itinerary planning platform end to end. I manage the development of five FastAPI backend microservices, lead database modeling, design multi-vertical merchant onboarding portals, configure keyless deployment pipelines, and engineer the mobile feed interfaces.
+As a Founding Engineer and core technical team member, the roles of system architecture and product strategy sit under a single unified responsibility. I drove the product execution as the technical product builder for our team. Operating in a dual engineering and product management capacity, I coordinated backend system architectures with user-facing features, successfully building, testing, and releasing the social, AI-assisted travel application to production in five months. I manage the development of five FastAPI backend microservices, lead database modeling, design multi-vertical merchant onboarding portals, configure keyless deployment pipelines, and engineer the mobile feed interfaces.
 
 ### Technical & Product Achievements
 

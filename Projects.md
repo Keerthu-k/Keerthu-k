@@ -41,7 +41,7 @@ TripKnot is an AI-assisted travel itinerary planning platform designed to make g
 *Freelance Software Engineer | August 2026 | Freelance Engagement*
 
 ### Project Overview
-Auromics is a cloud-based inventory, workflow, and production management system built for garment and knitting manufacturers. The platform replaces manual registers and spreadsheet-based tracking with a unified source of truth for orders, thread inventory, contractor assignments, contractor staff management, piece-rate wage calculation, and payroll processing.
+Auromics is a cloud-based inventory, workflow, and production management system built with solo end-to-end ownership for a garment manufacturer. Directly managed client relationships with non-technical stakeholders to gather raw requirements, ideate the system schema, and deliver a production-ready solution that they actively use to manage daily operations. The platform replaces manual registers and spreadsheet-based tracking with a unified source of truth for orders, thread inventory, contractor assignments, contractor staff management, piece-rate wage calculation, and payroll processing.
 
 ### Technical Architecture & Decisions
 *   **Given-and-Receive Workflow:** Modeled a production ledger where raw materials are issued to contractors or internal workers, and returned pieces are recorded against the same entry. The system supports partial receipts, mid-job reallocations between workers, and automatic fifteen-day overdue flags.
