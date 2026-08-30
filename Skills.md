@@ -1,693 +1,365 @@
-# Skills & Technical Proficiencies
+# Skills & Technical Competencies
 
-## 1. Product Management & Strategy
+## 1. Skills Summary
 
-### Product Discovery, Curation & 0-to-1 Development
+### AI, Generative AI & LLM Engineering
 
-* **0-to-1 Product Development:** Taking software applications from conceptual product discovery through prototyping, validation, development, and live production deployment.
-* **Product Discovery & Validation:** Identifying product requirements, validating concepts, and translating business needs into actionable product and technical requirements.
-* **Product Curation:** Shaping product scope, feature sets, workflows, and release priorities across multiple software applications.
-* **Product Roadmapping & Lifecycle Management:** Sequencing features from prototype validation through scalable software releases and managing product evolution over time.
-* **Requirements Gathering:** Gathering, structuring, and translating business and stakeholder requirements into implementable product specifications.
-* **Requirements Translation:** Bridging business, product, design, and engineering teams by translating business goals into:
+Generative AI, Large Language Models (LLMs), LLM Integration, AI Agents, Agentic AI, Multi-Agent Systems, LangGraph, LangChain, Retrieval-Augmented Generation (RAG), Vector Search, Semantic Search, Embeddings, Pinecone, Prompt Engineering, Structured Outputs, Schema-Constrained Generation, Pydantic, LLM Evaluation, Model Benchmarking, LLM Observability, Token Cost Monitoring, Latency Monitoring, Multi-Provider LLM Routing, Model Fallbacks, OpenAI API, Google Gemini API, Groq API, Llama Models
 
-  * API designs
-  * Technical specifications
-  * Database models
-  * User workflows
-  * Product requirements
-* **Agile / Scrum:** Active participation in:
+### Machine Learning, NLP & Computer Vision
 
-  * Sprint planning
-  * Backlog grooming
-  * Retrospectives
-  * Daily stand-ups
-  * Feature planning and delivery
+Hugging Face Transformers, Transformer Models, Natural Language Processing (NLP), BERT, SetFit, Text Classification, Model Evaluation, Vision Classification, Vision Model Fine-Tuning, CLIP, SigLIP2, OpenCV, Image Embeddings, Image Semantic Search, Multimodal AI, NumPy, Pandas
 
-### Prioritization & Product Planning
+### Backend Engineering & APIs
 
-* **Roadmap Sequencing & Prioritization:** Prioritizing requirements and organizing features into practical development and release sequences.
-* **Sprint Planning:** Breaking product requirements into sprint-ready development work.
-* **Feature Lifecycle Management:** Managing features from initial prototype and validation through production-ready, scalable releases.
-* **MoSCoW Prioritization:** Theoretical/self-study knowledge; not yet backed by standalone professional project accomplishments.
+Python, FastAPI, Flask, Async Python, Concurrent Programming, REST APIs, API Design, API Integration, Background Processing, Event-Driven Processing, Redis, Pydantic, Beanie ODM, Node.js, Express.js, TypeScript, JavaScript
 
-### Monetization & Pricing
+### Databases, Data Modeling & Application Security
 
-* **Monetization Strategy:** Designing product monetization models around business requirements and user segmentation.
-* **Subscription Models:** Designing subscription tiers and feature-access structures.
-* **Feature Gating:** Defining feature availability based on subscription plans and user/business types.
-* **Transaction Commission Structures:** Designing transaction-based commission models, including step-down structures based on:
+MongoDB, PostgreSQL, MySQL, SQLite, Firestore, Database Design, Data Modeling, NoSQL, SQL, Database Transactions, Database Indexing, Firebase Authentication, OAuth 2.0, Role-Based Access Control (RBAC), Multi-Tenant Authorization, Authentication, Authorization
 
-  * Business type
-  * Subscription tier
-  * Transaction volume/model
+### Cloud, DevOps & Production Engineering
 
-### Trust, Safety, Identity & Compliance
+Google Cloud Platform (GCP), Cloud Run, Cloud Storage, Cloud Functions, Cloud SQL, Artifact Registry, Docker, Containerization, GitHub Actions, Continuous Integration and Continuous Delivery (CI/CD), Workload Identity Federation, Sentry, Application Monitoring, Error Monitoring, Performance Monitoring, Linux, Bash, Git, GitHub, Postman
 
-* **Trust & Safety System Design:** Designing workflows for identity, content, approval, and compliance requirements.
-* **KYC / Digital Identity Verification:** Modeling digital identity verification frameworks.
-* **Multi-step Host Approvals:** Designing approval workflows involving multiple stages and eligibility gates.
-* **Content Moderation Workflows:** Designing moderation consoles and operational review workflows.
-* **Compliance Workflows:** Structuring workflows around verification, documentation, approvals, and compliance requirements.
+### Software Architecture & System Design
 
-### Multi-Vertical Product & Onboarding Design
+System Design, REST API Architecture, Asynchronous Architecture, Multi-Tenant SaaS Architecture, Event-Driven Architecture, Background Job Processing, Cloud-Native Applications, Containerized Deployment, LLM Application Architecture, RAG Architecture, Multi-Agent Architecture, Authentication and Authorization Architecture, Build-vs.-Buy Analysis
 
-* **Multi-Vertical Onboarding:** Designing onboarding journeys customized for different partner/business categories.
-* **Conditional Onboarding Logic:** Implementing conditional flows based on partner type, requirements, and eligibility.
-* **Documentation Checks:** Designing document-verification and submission requirements within onboarding.
-* **Tiered Gating:** Applying progressive access and approval gates throughout onboarding.
+### Product Management & Product Strategy
 
-### Build-vs-Buy & Technical Product Judgment
+Product Discovery, Product Validation, 0-to-1 Product Development, Product Strategy, Product Roadmapping, Product Lifecycle Management, Requirements Gathering, Product Requirements, Product Requirements Documents (PRDs), Technical Specifications, Feature Prioritization, Backlog Management, Sprint Planning, Agile, Scrum, User Acceptance Testing (UAT), Product Launch and Go-Live, Pricing and Monetization, Subscription Models, Feature Gating, Build-vs.-Buy Analysis, Technical Product Management, AI Product Development
 
-* **Build-vs-Buy Evaluation:** Auditing open-source and third-party systems to determine:
+### Product Delivery, Stakeholder & Domain Competencies
 
-  * Scalability
-  * Customization potential
-  * Architectural fit
-  * Operational constraints
-  * Long-term suitability
-* **Technical Judgment:** Evaluating architecture and tooling trade-offs under real product and engineering constraints.
+Cross-Functional Collaboration, Stakeholder Management, Client Management, Requirements Translation, Business-to-Technical Translation, Scope Management, Release Planning, Technical Documentation, API Documentation, Developer Documentation, Knowledge Transfer, Trust and Safety Workflows, Know Your Customer (KYC) Workflows, Identity Verification Workflows, Content Moderation Workflows, Compliance Workflows, Multi-Segment Onboarding
 
-### ERPNext Implementation
+### Frontend, Mobile & Product Design
 
-* **ERPNext Implementation:** End-to-end ERPNext implementation experience across:
+React, Next.js, React Native, Expo, TypeScript, JavaScript, Tailwind CSS, shadcn/ui, Zustand, TanStack Query, Responsive Web Design, Figma, UX Flows, Prototyping, WebAssembly FFmpeg
 
-  * Sales
-  * Purchase
-  * Accounting
-  * Inventory
-* **ERPNext Configuration:** Configuring ERPNext workflows and business processes.
-* **Workflow Customization:** Customizing ERPNext workflows to align with operational requirements.
-* **Data Migration:** Planning and executing ERP data migration.
-* **User Acceptance Testing:** Supporting UAT and validation before deployment.
-* **Go-Live Strategy:** Preparing systems and teams for production rollout.
-* **Multi-department Training:** Training users across business departments and operational functions.
+### Enterprise Software & ERP
 
-### Product Design & UX
+ERPNext, ERP Implementation, Business Process Mapping, Workflow Configuration, Workflow Customization, Data Migration, User Acceptance Testing (UAT), Go-Live Planning, End-User Training, Sales Operations, Purchase Operations, Inventory Operations, Accounting Workflows
 
-* **UX Design:** Designing user workflows, product experiences, onboarding journeys, dashboards, and operational interfaces.
-* **Figma:** Product and interface design workflows.
-* **Notion:** Product documentation, planning, and knowledge management.
+### Supporting Tools
 
-### Stakeholder & Client Management
-
-* **Cross-functional Collaboration:** Translating product requirements into technical specifications across product, engineering, and design.
-* **Stakeholder Communication:** Communicating requirements, constraints, progress, and delivery expectations.
-* **Direct Client Communication:** Managing direct freelance client relationships, including:
-
-  * Scope definition
-  * Requirement clarification
-  * Deliverable management
-  * Expectation management
-  * Milestone presentations
-* **Ownership & Autonomous Execution:** Operating across the full founding-engineer/product-development scope, from architecture through deployment and DevOps.
+Notion, GitHub Copilot, Claude Code, Claude API, Matplotlib, Plotly, Supabase
 
 ---
 
-# 2. AI, LLM & Agentic Engineering
+## 2. Core Skills Snapshot
 
-## LLM Integration & Orchestration
+**AI & LLM Engineering:** Generative AI, LLM Integration, AI Agents, LangGraph, LangChain, RAG, Pinecone, Embeddings, Semantic Search, Prompt Engineering, Structured Outputs, Pydantic, LLM Evaluation, Multi-Provider Routing, OpenAI API, Google Gemini API, Groq API
 
-* **LLM Integration:** Building backend services and product workflows using:
+**Backend & APIs:** Python, FastAPI, Async Python, REST APIs, API Design, SQL, Redis, MongoDB, PostgreSQL, Firebase Authentication, OAuth 2.0, RBAC
 
-  * OpenAI
-  * Google Gemini
-  * Groq / Llama
-* **Context-aware LLM Services:** Integrating LLMs into backend applications with application-specific context and workflows.
-* **Multi-provider LLM Routing:** Designing systems capable of routing requests between multiple model providers.
-* **LLM Fallback Architecture:** Implementing automatic fallback models to protect against:
+**Cloud & DevOps:** GCP, Cloud Run, Cloud Storage, Cloud Functions, Docker, GitHub Actions, CI/CD, Workload Identity Federation, Sentry
 
-  * API outages
-  * Rate limits
-  * Provider failures
-  * Latency issues
-* **Provider Abstraction:** Designing provider-agnostic model routing using structured/discriminated model configurations.
+**Product Management:** Product Discovery, 0-to-1 Product Development, Product Strategy, Product Roadmapping, Requirements Gathering, PRDs, Feature Prioritization, Agile/Scrum, UAT, Product Launch, Pricing and Monetization, Technical Product Management
 
-## Agentic AI & Multi-agent Systems
-
-* **Agentic AI Development:** Building autonomous AI workflows for specialized domain tasks.
-* **Multi-agent Systems:** Designing systems where specialized agents perform distinct responsibilities.
-* **LangGraph:** Designing and implementing router-driven multi-agent assistant graphs.
-* **LangChain:** Experience with LLM application and agentic workflow development.
-* **CrewAI:** Self-study/theoretical knowledge only; excluded from active competencies because it has not been used in production.
-
-## RAG & Semantic Retrieval
-
-* **Retrieval-Augmented Generation (RAG):** Designing and implementing semantic retrieval pipelines.
-* **Pinecone:** Vector database usage for semantic search and RAG systems.
-* **Document Chunking:** Structuring documents into retrieval-optimized chunks.
-* **Metadata Filtering:** Applying metadata-based filtering to improve retrieval relevance.
-* **Embeddings:** Integrating embedding models into semantic search and retrieval workflows.
-* **Semantic Search:** Building semantic search systems across textual and visual datasets.
-
-## Structured AI Output
-
-* **Structured Output Generation:** Designing LLM interactions that return machine-consumable structured responses.
-* **Schema-constrained Generation:** Enforcing strict output formats for downstream application consumption.
-* **Pydantic Validation:** Using Pydantic models to validate and constrain LLM-generated JSON.
-* **Few-shot Prompting:** Using examples to guide model output behavior.
-* **Prompt Engineering:** Designing prompts for reliability, structure, context, and task-specific behavior.
-* **Chain-of-thought prompting:** Listed as a prompting technique in the original skill set.
-
-## Model Evaluation & LLMOps
-
-* **LLM Evaluation:** Evaluating model behavior against application-specific requirements.
-* **Model Benchmarking:** Building internal/custom benchmark suites.
-* **Generative Model Comparison:** Comparing language, image, and video models across:
-
-  * Performance
-  * Quality
-  * Cost
-  * Latency
-* **LLM Observability:** Tracking operational characteristics of LLM systems.
-* **Token Cost Tracking:** Monitoring token consumption and associated costs.
-* **Latency Tracking:** Measuring model response latency.
-* **LLMOps:** Applying evaluation, benchmarking, observability, and cost/latency monitoring to LLM applications.
-
-## Multimodal AI
-
-* **Multimodal Generation Routing:** Routing image/video generation requests between different providers and models.
-* **OpenAI GPT Image 1:** Experience with image generation workflows.
-* **Replicate / Flux:** Experience with image-generation model routing.
-* **Vision Classification:** Building vision classification workflows.
-* **CLIP:** Using CLIP-based semantic representations and search.
-* **SigLIP2:** Experience with SigLIP2-based vision classification.
-* **OpenCV:** Computer vision and image-processing workflows.
-* **Image Library Search:** Building CLIP-based semantic vector search for image libraries.
-* **Product Extraction:** Building systems for extracting product information from images.
-* **Vision Model Fine-tuning:** Fine-tuning Hugging Face vision classifiers to identify image anomalies.
-
-## NLP & ML
-
-* **Hugging Face:** Model integration, evaluation, and fine-tuning workflows.
-* **Transformer-based NLP:** Working with transformer-based NLP models.
-* **BERT:** Experience with BERT-based NLP workflows.
-* **SetFit:** Experience with SetFit-based text classification.
-* **Small Language Models (SLMs):** Knowledge and application of smaller language models.
-* **Model Evaluation:** Evaluating models for application-specific performance and quality.
-
-### Explicitly Self-audited / Not Active Competencies
-
-The following are intentionally excluded from active professional competencies because they are currently limited to self-study/theoretical knowledge:
-
-* PyTorch / TensorFlow model training from scratch
-* Traditional MLOps
-* ETL / Spark big-data pipelines
-* CrewAI
-* Function calling
+**Software & Product Development:** TypeScript, JavaScript, Node.js, React, Next.js, React Native, System Design, Database Design, Multi-Tenant SaaS, Figma, Technical Documentation
 
 ---
 
-# 3. Backend Engineering & Languages
+## 3. Detailed Skills & Supporting Evidence
 
-## Python & FastAPI
+### 3.1 AI, Generative AI & LLM Engineering
 
-* **Python:** Primary backend development language.
-* **FastAPI:** Advanced backend application development.
-* **Asynchronous Programming:** Building asynchronous Python applications and APIs.
-* **Concurrent Programming:** Designing concurrent backend workflows.
-* **FastAPI Routing:** Designing and implementing production API routes.
-* **Background Tasks:** Implementing asynchronous/background processing.
-* **Beanie ODM:** MongoDB object-document modeling using Beanie.
-* **Flask:** Backend/API development.
+#### Core Competencies
 
-## TypeScript / JavaScript / Node.js
+| Competency | Skills & Technologies | Supporting Evidence |
+|---|---|---|
+| LLM application development | LLM Integration, Generative AI, LLM Applications | Built backend and product workflows using OpenAI, Google Gemini, Groq, and Llama-family models. |
+| Multi-provider model routing | Multi-Provider LLM Routing, Provider Abstraction, Model Fallbacks | Designed model-provider abstraction and automatic fallback behavior to handle provider outages, rate limits, latency, and availability constraints. |
+| AI agents and orchestration | AI Agents, Agentic AI, Multi-Agent Systems, LangGraph | Built router-driven LangGraph workflows in which specialized agents handled distinct responsibilities. |
+| Retrieval-Augmented Generation | Retrieval-Augmented Generation (RAG), Vector Search, Embeddings, Pinecone | Designed retrieval pipelines covering document chunking, embeddings, semantic retrieval, metadata filtering, and LLM context injection. |
+| RAG evaluation | LLM Evaluation, RAG Evaluation, Benchmarking, Retrieval Quality | Rebuilt the Pinecone-backed retrieval layer for AuroGurukul and measured an 80% reduction in incorrect chatbot responses across a 50+ query internal benchmark. |
+| Structured LLM outputs | Structured Outputs, Schema-Constrained Generation, Pydantic Validation | Built LLM workflows that returned machine-consumable JSON constrained and validated with Pydantic models. |
+| Prompt engineering | Prompt Engineering, Few-Shot Prompting, Context Design | Designed prompts for task context, reliability, structured output, and example-guided behavior. |
+| LLM evaluation and observability | LLM Evaluation, Model Benchmarking, LLM Observability, Token Cost Monitoring, Latency Monitoring | Compared models on quality, cost, and latency and implemented token-cost and latency tracking for generation workflows. |
 
-* **TypeScript:** Application and backend development.
-* **JavaScript:** Full-stack application development.
-* **Node.js:** Backend development.
-* **Express:** Node.js API/backend development.
+#### Supporting Competencies
 
-## API Engineering
+| Competency | Skills & Technologies | Supporting Evidence |
+|---|---|---|
+| LangChain | LangChain, LLM Application Development | Used LangChain for LLM application and workflow development. |
+| Model-provider APIs | OpenAI API, Google Gemini API, Groq API, Llama Models | Integrated OpenAI, Google Gemini, Groq, and Llama-family models into application workflows. |
+| Multimodal generation | Multimodal AI, Image Generation, Model Routing, Replicate, FLUX | Routed image and video generation requests across multiple providers and models. |
+| Small/open models | Llama Models, Open-Source Models, Small Language Models | Integrated Llama-family and other open-model options into application workflows. |
 
-* **REST API Design:** Designing clean, scalable RESTful APIs.
-* **API Specifications:** Defining API contracts and schemas.
-* **Integration Documentation:** Writing comprehensive API integration guides.
-* **Error Boundaries:** Designing API error-handling boundaries and failure responses.
-* **Technical API Documentation:** Producing developer-friendly integration documentation.
+#### Applied Implementation Evidence
 
-## Database Engineering
-
-* **Database Schema Design:** Designing both relational and NoSQL data models.
-* **Database Transactions:** Implementing transactional database operations.
-* **Index Optimization:** Structuring and optimizing database indexes for efficient search.
-* **NoSQL Schema Design:** Designing MongoDB-oriented schemas.
-* **SQL Schema Design:** Designing relational database structures.
-
-### Databases & ORMs
-
-* **MongoDB**
-* **PostgreSQL**
-* **MySQL**
-* **SQLite**
-* **Beanie ODM**
-* **SQLAlchemy** — self-study/theoretical knowledge; not used in production.
-* **Prisma ORM** — self-study/theoretical knowledge; not used in production.
-
-## Authentication, Authorization & Security
-
-* **Firebase Authentication**
-* **OAuth 2.0**
-* **Role-Based Access Control (RBAC)**
-* **Multi-tenant Authorization**
-* **Administrative Access Controls**
-* **Identity & Authentication Workflows**
-
-## Event-driven & Background Processing
-
-* **Redis:** Caching, counters, event tracking, and utility workflows.
-* **Fire-and-forget Events:** Implementing asynchronous event tracking without increasing user-facing API latency.
-* **Atomic Counters:** Building counter utilities using Redis.
-* **Scheduled Jobs / Cron Utilities:** Implementing scheduled backend operations.
-* **Background/Event-driven Jobs:** Designing asynchronous backend processing.
-
-### Explicitly Self-audited / Not Production Competencies
-
-* GraphQL
-* SQLAlchemy
-* Prisma ORM
-* Inngest
-* Celery
-
-These are excluded from active competencies because they have not been used in production environments.
+- Built context-aware LLM services integrated with application-specific data, rules, and workflows.
+- Compared language, image, and video models across output quality, performance, cost, and latency.
+- Routed image-generation requests across OpenAI image-generation models, including GPT Image 1, and Replicate-hosted FLUX models.
+- Designed provider configurations and fallback behavior using structured, discriminated model definitions.
 
 ---
 
-# 4. Frontend & Mobile Development
+### 3.2 Machine Learning, NLP & Computer Vision
 
-## React & Next.js
+#### Core and Supporting Competencies
 
-* **React:** Building modern web applications and interfaces.
-* **Next.js:** Developing production web applications and dashboards.
-* **TypeScript:** Frontend application development.
-* **B2B Platforms:** Building partner-facing business platforms.
-* **Administrative Portals:** Building internal/admin management interfaces.
-* **Customer Interfaces:** Building customer-facing application experiences.
+| Competency | Experience Level | Supporting Evidence |
+|---|---|---|
+| Hugging Face Transformers | Core | Integrated, evaluated, and fine-tuned Hugging Face models for applied NLP and vision tasks. |
+| Text classification | Core | Used BERT- and SetFit-based approaches for transformer-based text classification workflows. |
+| Computer vision | Core | Built applied image-processing, classification, extraction, and semantic-search workflows using OpenCV and embedding models. |
+| Image semantic search | Core | Built CLIP-based semantic vector search for image libraries. |
+| Vision classification | Core | Used CLIP and SigLIP2 representations for vision classification and product/image understanding. |
+| Vision model fine-tuning | Applied | Fine-tuned a Hugging Face vision classifier to identify image anomalies. |
+| Multimodal AI | Applied | Worked across text and image inputs and outputs, including routed image and video generation workflows. |
+| Data analysis libraries | Additional | Used NumPy, Pandas, Matplotlib, and Plotly for data processing, analysis, and visualization. |
 
-## React Native & Mobile
+#### Applied Implementation Evidence
 
-* **React Native:** Cross-platform mobile application development.
-* **Expo:** Mobile application development and native capability integration.
-* **Location-aware Feeds:** Implementing location-aware mobile experiences.
-* **Notification Preferences:** Building notification configuration and preference flows.
-* **Native Photo Upload APIs:** Implementing mobile photo upload functionality through Expo.
-
-## UI & Styling
-
-* **Tailwind CSS:** Responsive interface styling and component development.
-* **shadcn/ui:** Modern React UI component development.
-* **NativeWind:** Familiarity with the technology; self-study/theoretical knowledge rather than primary professional ownership.
-* **Radix UI:** Self-study/theoretical knowledge.
-* **Responsive UI Design:** Building clean, responsive, interactive interfaces.
-
-## Client-side State & Data
-
-* **Zustand:** Client-side/global state management.
-* **TanStack Query / React Query:** Server-state and API data management.
-* **Global Player Queues:** Managing client-side media/player queues.
-* **Cache Configuration:** Managing client-side caching behavior.
-
-## Browser Media Processing
-
-* **WebAssembly FFmpeg:** Browser-based media processing using WebAssembly.
-
-### Explicitly Self-audited / Not Active Competencies
-
-* NativeWind
-* Redux
-* React Context
-* Radix UI
-* Recharts
-* Web Accessibility
-* Frontend testing frameworks
-
-These are excluded from active competencies because they are not currently backed by primary professional project ownership.
+- Built image-library search using CLIP embeddings and semantic vector retrieval.
+- Built product-information extraction workflows from images.
+- Used OpenCV for image processing and computer-vision workflows.
+- Fine-tuned and evaluated a Hugging Face vision classifier for image-anomaly identification.
 
 ---
 
-# 5. AI / Data / Analytics Tooling
+### 3.3 Backend Engineering, Python & APIs
 
-## Data Analysis
+#### Core Competencies
 
-* **NumPy**
-* **Pandas**
-* **Matplotlib**
-* **Plotly**
+| Competency | Skills & Technologies | Supporting Evidence |
+|---|---|---|
+| Python backend engineering | Python, Backend Development, Python Development | Python is the primary backend language and supports production API, AI-service, data-processing, and integration work. |
+| FastAPI | FastAPI, Python APIs, API Development | Built production API routes, asynchronous workflows, request/response schemas, background tasks, and service integrations. |
+| Asynchronous programming | Async Python, Asynchronous Programming, Concurrency | Built asynchronous and concurrent backend workflows, including non-blocking processing and background operations. |
+| REST API engineering | REST APIs, RESTful API Design, API Architecture, API Integration | Designed API contracts, request/response schemas, failure handling, integrations, and developer-facing documentation. |
+| Data modeling | Database Design, Data Modeling, NoSQL Schema Design, Relational Schema Design | Designed MongoDB and relational database structures for application and multi-tenant product requirements. |
+| Redis-backed utilities | Redis, Caching, Background Processing, Event-Driven Processing | Used Redis for caching, counters, event tracking, and supporting asynchronous or scheduled backend workflows. |
+| Authentication and authorization | Authentication, Authorization, OAuth 2.0, RBAC, Multi-Tenant Authorization | Implemented identity, role, administrative, and tenant-aware access-control workflows. |
+| Production ownership | Production Engineering, Deployment, Monitoring, Incident Debugging | Resolved production issues and owned service architecture, deployment, monitoring, and ongoing operations. |
 
-## Machine Learning Tooling
+#### Languages, Frameworks & Data Technologies
 
-* **Hugging Face**
-* **Model Evaluation**
-* **Model Benchmarking**
-* **Embeddings**
-* **Semantic Search**
-* **Vision Classification**
-* **Transformer-based NLP**
-* **Fine-tuning**
+- **Primary:** Python, FastAPI, Pydantic, Beanie ODM, MongoDB, PostgreSQL, Redis
+- **Additional production experience:** Flask, MySQL, SQLite, Firebase/Firestore
+- **Full-stack/backend breadth:** TypeScript, JavaScript, Node.js, Express.js
 
----
+#### Additional Backend Competencies
 
-# 6. Databases, Cloud & Infrastructure
+- Database Transactions
+- Database Indexing
+- API Specifications
+- API Documentation
+- Background Tasks
+- Scheduled Jobs
+- Event-Driven Processing
+- Multi-Tenant SaaS
 
-## Google Cloud Platform
+#### Applied Implementation Evidence
 
-* **Google Cloud Platform (GCP)**
-* **Cloud Run:** Production deployment and management.
-* **Cloud Storage:** Cloud object storage.
-* **Cloud Functions:** Serverless backend workflows.
-* **Cloud SQL:** Managed relational database infrastructure.
-* **Artifact Registry:** Container/image management.
-* **Workload Identity Federation:** Secure GitHub Actions authentication into GCP.
-* **Google Cloud Identity pipelines:** Cloud identity and authentication infrastructure.
-
-## Firebase & Supabase
-
-* **Firebase Authentication**
-* **Firebase Firestore**
-* **Supabase**
-
-## Vector Infrastructure
-
-* **Pinecone:** Vector database infrastructure for semantic retrieval and RAG.
-
-## Containerization
-
-* **Docker**
-* **Containerized Python environments**
-* **Container-based production deployment**
-* **Container image management**
-
-## CI/CD
-
-* **GitHub Actions**
-* **CI/CD Pipeline Design**
-* **Automated Deployment**
-* **Deployment Optimization**
-* **Workload Identity Federation within GitHub Actions**
-
-### Security-focused CI/CD
-
-* Configuring secure GCP authentication through **Workload Identity Federation**.
-* Eliminating the security risks associated with long-lived service-account key files.
+- Designed and implemented FastAPI routes, Pydantic request/response schemas, asynchronous services, and background tasks.
+- Defined REST API contracts, error responses, failure boundaries, and developer-facing integration documentation.
+- Designed relational and NoSQL schemas, database transactions, and indexes for application search and access patterns.
+- Implemented Firebase Authentication, OAuth 2.0, RBAC, administrative access controls, and tenant-aware authorization.
+- Used Beanie ODM for MongoDB document models.
+- Built non-blocking event tracking, Redis-backed atomic counters, scheduled recalculation jobs, and public leaderboard endpoints.
+- Implemented cron-based and asynchronous background operations without adding work to user-facing request latency.
 
 ---
 
-# 7. DevOps, Monitoring & Production Engineering
+### 3.4 Cloud, DevOps & Production Engineering
 
-## Production Deployment
+#### Core Competencies
 
-* Deploying and managing production services on GCP.
-* Containerizing applications using Docker.
-* Managing production backend and frontend environments.
-* Supporting applications from architecture through deployment and operations.
+| Competency | Skills & Technologies | Supporting Evidence |
+|---|---|---|
+| Google Cloud Platform | GCP, Google Cloud Platform, Cloud Run | Deployed and operated containerized application services on GCP. |
+| Serverless and managed services | Cloud Run, Cloud Functions, Cloud Storage, Cloud SQL, Artifact Registry | Used managed compute, object storage, relational databases, and container-image infrastructure. |
+| Containerization | Docker, Containerization, Containerized Deployment | Created and deployed containerized Python/application environments. |
+| CI/CD | GitHub Actions, CI/CD, Continuous Integration, Continuous Delivery, Automated Deployment | Built automated deployment workflows that reduced deployment time to approximately three minutes. |
+| Cloud identity for CI/CD | Workload Identity Federation, Keyless Authentication, GCP IAM | Configured GitHub Actions authentication to GCP without long-lived service-account key files. This is a strong, specific cloud-security signal. |
+| Monitoring and observability | Sentry, Error Monitoring, Performance Monitoring, Application Monitoring | Used Sentry across backend, web, and mobile applications for errors, performance, and alerts. |
 
-## Monitoring & Observability
+#### Supporting Tools
 
-* **Sentry**
+Linux, Bash, Git, GitHub, Postman, Firebase, Supabase
 
-  * Real-time error logging
-  * Performance monitoring
-  * Alert tracking
-  * Backend monitoring
-  * Web frontend monitoring
-  * Mobile application monitoring
-* **LLM Observability**
+#### Applied Implementation Evidence
 
-  * Token usage tracking
-  * Cost monitoring
-  * Latency measurement
-  * Model performance benchmarking
-
-## Development Environment
-
-* **Linux**
-* **Bash**
-* **Git**
-* **GitHub**
-* **GitHub Copilot**
-* **Postman**
-
-## AI-assisted Engineering
-
-* **Claude API**
-* **Claude Code**
-* AI-assisted terminal development
-* Automated boilerplate/code construction
-* Algorithm optimization
-* Unit-test generation
+- Containerized Python applications and managed container images through Artifact Registry.
+- Deployed backend and frontend services on Cloud Run and used Cloud Storage, Cloud Functions, and Cloud SQL where required.
+- Built GitHub Actions deployment pipelines authenticated through Workload Identity Federation without long-lived service-account key files.
+- Optimized the deployment workflow to approximately three minutes.
+- Used Sentry for backend, web, and mobile error logging, performance monitoring, and alert tracking.
 
 ---
 
-# 8. Software Architecture & Engineering Practices
+### 3.5 Software Architecture & Engineering Practices
 
-* **Microservices Architecture**
-* **REST API Architecture**
-* **Asynchronous Backend Architecture**
-* **Event-driven Utilities**
-* **Background Job Processing**
-* **Multi-provider Service Architecture**
-* **LLM Routing & Fallback Architecture**
-* **Multi-agent Architecture**
-* **RAG Architecture**
-* **RBAC Architecture**
-* **Multi-tenant Application Architecture**
-* **Authentication & Authorization Architecture**
-* **Cloud-native Deployment**
-* **Containerized Application Architecture**
-* **CI/CD Architecture**
-* **Production Monitoring & Observability**
-* **Build-vs-Buy Architecture Evaluation**
-* **Scalability & Customization Assessment**
+#### Strongest Architecture Areas
 
----
+- System Design
+- REST API Architecture
+- Asynchronous Backend Architecture
+- Multi-Tenant SaaS Architecture
+- Authentication and Authorization Architecture
+- Database and Data-Model Design
+- LLM Application Architecture
+- Multi-Provider Model Routing and Fallback Design
+- RAG Architecture
+- Multi-Agent Orchestration
+- Containerized Cloud Deployment
+- CI/CD Pipeline Design
+- Monitoring and Observability
+- Build-vs.-Buy Analysis
 
-# 9. Product, Engineering & Design Workflow
+#### Applied Architecture Evidence
 
-### End-to-end Product Development
-
-**Product Discovery → Requirements → UX / Prototype → Technical Design → Architecture → Development → Testing → Deployment → Monitoring → Iteration**
-
-Capabilities across this lifecycle include:
-
-* Product discovery
-* Requirements gathering
-* Product specification
-* UX design
-* Technical architecture
-* API design
-* Database modeling
-* Backend development
-* Frontend development
-* Mobile development
-* AI/LLM integration
-* Infrastructure setup
-* CI/CD
-* Production deployment
-* Monitoring
-* Client/stakeholder communication
-* Product iteration
+- Designed multi-provider service architecture for LLM routing, provider abstraction, and fallback handling.
+- Designed RAG, multi-agent, RBAC, multi-tenant application, and authentication/authorization architecture.
+- Connected application architecture to containerized deployment, CI/CD, monitoring, and ongoing operations.
+- Evaluated scalability, customization potential, architectural fit, operational constraints, and long-term suitability during build-vs.-buy decisions.
 
 ---
 
-# 10. Process, Documentation & Collaboration
+### 3.6 Product Management, Strategy & Delivery
 
-## Agile / Scrum
+#### Core Competencies
 
-* Sprint planning
-* Backlog grooming
-* Daily stand-ups
-* Retrospective reviews
-* Feature sequencing
-* User-goal alignment
-* Iterative software delivery
+| Competency | Skills & Technologies | Supporting Evidence |
+|---|---|---|
+| 0-to-1 product development | 0-to-1 Product Development, New Product Development, Product Lifecycle | Took software products from discovery and requirements through prototype, development, deployment, and iteration. |
+| Product discovery and validation | Product Discovery, Product Validation, Problem Definition | Identified product and business requirements and validated concepts through product and technical work. |
+| Product requirements | Requirements Gathering, Product Requirements, PRDs, Technical Specifications | Gathered and structured business requirements, then translated them into workflows, API designs, database models, and implementable specifications. |
+| Product planning | Product Roadmapping, Feature Prioritization, Backlog Management, Release Planning | Sequenced features and releases based on dependencies, requirements, value, and implementation constraints. |
+| Product delivery | Agile, Scrum, Sprint Planning, UAT, Product Launch, Go-Live | Worked across sprint planning, backlog refinement, delivery, validation, UAT, and production rollout. |
+| Technical product management | Technical Product Management, Business-to-Technical Translation, Cross-Functional Collaboration | Bridged product, business, design, and engineering considerations and could directly assess implementation trade-offs. |
+| Pricing and monetization | Pricing Strategy, Monetization Strategy, Subscription Models, Feature Gating | Designed subscription tiers, feature access, and transaction/commission structures around user or business segments. |
+| Build-vs.-buy decisions | Build-vs.-Buy Analysis, Vendor Evaluation, Technical Due Diligence | Assessed open-source and third-party options for fit, scalability, customizability, operational constraints, and long-term suitability. |
+| AI product development | AI Product Development, Generative AI Products, LLM Product Development | Combined product requirements, model/provider selection, structured AI behavior, evaluation, cost/latency considerations, and production delivery. |
 
-## Technical Documentation
+#### Supporting Product and Domain Competencies
 
-* REST API integration guides
-* Database schemas
-* Deployment checklists
-* Internal developer wikis
-* Developer onboarding guides
-* API and integration documentation
-* Technical specifications
-* Architecture documentation
-* Operational documentation
+- Trust and Safety Workflows
+- KYC and Digital Identity Workflows
+- Content Moderation Workflows
+- Compliance Workflows
+- Multi-Segment or Multi-Vertical Onboarding
+- Conditional Onboarding
+- Eligibility and Approval Workflows
+- B2B Platforms
+- Administrative and Operations Portals
+- Client-Facing Product Delivery
 
-## Mentorship & Knowledge Transfer
+#### Applied Product and Workflow Evidence
 
-* Developer onboarding
-* Internal technical documentation
-* API/integration documentation
-* Knowledge transfer
-* Training developers and operational users
-
-## Stakeholder Collaboration
-
-* Translating business requirements into technical requirements
-* Translating technical constraints into stakeholder-friendly language
-* Working across product, engineering, and design
-* Communicating implementation decisions
-* Managing scope and expectations
-* Presenting milestone completions
-
-## Freelance / Client Delivery
-
-* Direct freelance client communication
-* Software scope definition
-* Requirement clarification
-* Deliverable planning
-* Milestone management
-* Expectation management
-* Client-facing demonstrations and presentations
+- Shaped product scope, feature sets, workflows, and release priorities from discovery through production.
+- Translated requirements into APIs, technical specifications, database models, user workflows, and product requirements.
+- Broke product requirements into sprint-ready work and sequenced features through prototype, validation, scalable release, and iteration.
+- Designed subscription tiers, feature-access rules, and transaction commission structures based on business type, subscription tier, and transaction model or volume.
+- Designed multi-step identity, host-approval, content-moderation, documentation, and compliance workflows.
+- Designed onboarding journeys with conditional logic, eligibility checks, document requirements, approval stages, and progressive access gates for different partner or business categories.
+- Evaluated product and architecture trade-offs under real engineering, operational, and business constraints.
 
 ---
 
-# 11. Core Soft Skills & Professional Capabilities
+### 3.7 ERPNext & Enterprise Implementation
 
-* **Cross-functional Collaboration**
-* **Stakeholder Communication**
-* **Client Communication**
-* **Mentorship**
-* **Technical Documentation**
-* **Ownership**
-* **Autonomous Execution**
-* **Problem Framing**
-* **Critical Thinking**
-* **Technical Judgment**
-* **Adaptability**
-* **Build-vs-Buy Evaluation**
-* **Requirement Translation**
-* **Scope Management**
-* **Expectation Management**
-* **Architecture-to-DevOps Ownership**
-* **Business-to-Engineering Translation**
+#### Core Competencies
 
-### Founding-Engineer Scope
+- ERPNext Implementation
+- Requirements Gathering
+- Business Process Mapping
+- Workflow Configuration and Customization
+- Data Migration
+- User Acceptance Testing (UAT)
+- Go-Live Planning and Support
+- End-User and Multi-Department Training
+- Sales, Purchase, Accounting, and Inventory Workflows
 
-Ability to operate across a broad engineering/product surface, including:
+#### Evidence
 
-> **Product discovery → architecture → technical design → implementation → infrastructure → deployment → monitoring → iteration**
+Delivered ERPNext implementation across requirements, configuration, UAT, go-live, and training, with a recorded 60% improvement in operational efficiency through workflow automation.
 
 ---
 
-# 12. Complete Technology Matrix
+### 3.8 Frontend, Mobile & Product Design
 
-| Domain                      | Technologies / Competencies                                                                                                                                                                                                                                 |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Product Management**      | Product Discovery, Product Validation, Product Roadmapping, Lifecycle Management, 0-to-1 Development, Requirements Gathering, Requirements Translation, Feature Prioritization, Sprint Planning, Monetization, Pricing, Feature Gating, Subscription Models |
-| **Product Strategy**        | Build-vs-Buy Evaluation, Trust & Safety, KYC, Digital Identity, Compliance Workflows, Multi-vertical Onboarding, Conditional Logic, Documentation Checks, Tiered Gating                                                                                     |
-| **ERP**                     | ERPNext, Sales, Purchase, Accounting, Inventory, Workflow Customization, Data Migration, UAT, Go-live, Department Training                                                                                                                                  |
-| **AI / LLM**                | OpenAI, Google Gemini, Groq, Llama, LLM Routing, Fallbacks, LangGraph, LangChain, Multi-agent Systems, Prompt Engineering, Structured Generation, Pydantic Validation, Few-shot Prompting                                                                   |
-| **RAG**                     | RAG, Pinecone, Embeddings, Semantic Search, Document Chunking, Metadata Filtering                                                                                                                                                                           |
-| **ML / NLP**                | Hugging Face, BERT, SetFit, Transformers, SLMs, Fine-tuning, Model Evaluation                                                                                                                                                                               |
-| **Computer Vision**         | CLIP, SigLIP2, OpenCV, Vision Classification, Image Semantic Search, Product Extraction, Vision Fine-tuning                                                                                                                                                 |
-| **Multimodal AI**           | GPT Image 1, Replicate, Flux, Image Generation, Video Generation, Multimodal Routing                                                                                                                                                                        |
-| **AI Evaluation**           | Benchmark Suites, Model Benchmarking, Quality Evaluation, Cost Tracking, Token Tracking, Latency Tracking, LLM Observability, LLMOps                                                                                                                        |
-| **Backend**                 | Python, FastAPI, Flask, TypeScript, JavaScript, Node.js, Express                                                                                                                                                                                            |
-| **Backend Architecture**    | REST APIs, Microservices, Async Programming, Concurrent Programming, Background Tasks, Event-driven Jobs, Redis Utilities                                                                                                                                   |
-| **ORM / ODM**               | Beanie ODM, SQLAlchemy*, Prisma*                                                                                                                                                                                                                            |
-| **Databases**               | MongoDB, PostgreSQL, MySQL, SQLite, Firestore                                                                                                                                                                                                               |
-| **Authentication**          | Firebase Auth, OAuth 2.0, RBAC, Multi-tenant Authorization                                                                                                                                                                                                  |
-| **Frontend**                | React, Next.js, TypeScript, Tailwind CSS, shadcn/ui                                                                                                                                                                                                         |
-| **Mobile**                  | React Native, Expo, Location-aware Feeds, Notifications, Native Photo Upload                                                                                                                                                                                |
-| **Frontend State / Data**   | Zustand, TanStack Query, React Query                                                                                                                                                                                                                        |
-| **Media**                   | WebAssembly FFmpeg                                                                                                                                                                                                                                          |
-| **UI / Components**         | Figma, shadcn/ui, Radix UI*, NativeWind*                                                                                                                                                                                                                    |
-| **Data**                    | NumPy, Pandas, Matplotlib, Plotly                                                                                                                                                                                                                           |
-| **Vector DB**               | Pinecone                                                                                                                                                                                                                                                    |
-| **Cloud**                   | GCP, Cloud Run, Cloud Storage, Cloud Functions, Cloud SQL, Artifact Registry                                                                                                                                                                                |
-| **Cloud Security**          | Workload Identity Federation                                                                                                                                                                                                                                |
-| **DevOps**                  | Docker, GitHub Actions, CI/CD                                                                                                                                                                                                                               |
-| **Monitoring**              | Sentry, Error Monitoring, Performance Monitoring, Alert Tracking                                                                                                                                                                                            |
-| **Developer Tools**         | Git, GitHub, GitHub Copilot, Postman, Linux, Bash                                                                                                                                                                                                           |
-| **AI-assisted Development** | Claude API, Claude Code                                                                                                                                                                                                                                     |
-| **Documentation**           | API Docs, Integration Guides, Database Schemas, Deployment Checklists, Developer Wikis                                                                                                                                                                      |
-| **Ways of Working**         | Agile, Scrum, Sprint Planning, Backlog Grooming, Retrospectives, Stand-ups                                                                                                                                                                                  |
-| **Collaboration**           | Cross-functional Collaboration, Stakeholder Communication, Client Communication, Mentorship                                                                                                                                                                 |
-| **Engineering Leadership**  | Ownership, Autonomous Execution, Technical Judgment, Problem Framing, Critical Thinking                                                                                                                                                                     |
+#### Additional Competencies
 
-* **Self-study/theoretical knowledge; not backed by production project ownership.**
+| Area | Technologies & Skills | Supporting Evidence |
+|---|---|---|
+| Web frontend | React, Next.js, TypeScript, JavaScript | Built production web applications, dashboards, administrative portals, and customer-facing interfaces. |
+| Mobile | React Native, Expo | Built cross-platform mobile experiences and integrated native device capabilities. |
+| UI and styling | Tailwind CSS, shadcn/ui, Responsive Web Design | Implemented responsive interfaces and reusable UI components. |
+| State and server data | Zustand, TanStack Query / React Query | Managed global client state, server state, cache behavior, and API-backed data flows. |
+| Product design | Figma, UX Flows, Prototyping | Designed product workflows, onboarding journeys, dashboards, and operational interfaces. |
+| Browser media | WebAssembly FFmpeg | Implemented browser-based media-processing workflows. |
+
+#### Applied Implementation Evidence
+
+- Built B2B partner platforms, administrative portals, and customer-facing product interfaces.
+- Implemented responsive web interfaces with React, Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
+- Built React Native and Expo mobile experiences with location-aware feeds, notification preferences, and native photo-upload integrations.
+- Managed client-side state and server data with Zustand and TanStack Query, including cache behavior and global media/player queues.
+- Implemented browser-based media processing with WebAssembly FFmpeg.
 
 ---
 
-# 13. Self-Audited Competency Boundaries
+### 3.9 Documentation, Collaboration & Delivery
 
-To keep the skills profile accurate and professionally defensible, the following distinction is maintained.
+#### Marketable Competencies
 
-## Active / Professionally Backed
+- Requirements Translation
+- Cross-Functional Collaboration
+- Stakeholder Management
+- Client Management
+- Scope and Expectation Management
+- Technical Documentation
+- API and Integration Documentation
+- Architecture Documentation
+- Deployment Runbooks and Checklists
+- Developer Onboarding and Knowledge Transfer
+- UAT Coordination
+- End-User Training
+- Milestone Demonstrations and Product Presentations
+- Mentorship
 
-The profile includes professional experience in areas such as:
+#### Evidence Signals
 
-* Product development and product ownership
-* 0-to-1 software development
-* Product requirements and technical translation
-* Monetization and pricing design
-* Trust & safety workflows
-* KYC / identity workflows
-* ERPNext implementation
-* Python / FastAPI
-* REST APIs
-* MongoDB / PostgreSQL / MySQL / SQLite
-* React / Next.js
-* React Native / Expo
-* Tailwind CSS / shadcn/ui
-* GCP
-* Docker
-* GitHub Actions
-* CI/CD
-* Sentry
-* OpenAI / Gemini / Groq / Llama integrations
-* LangGraph / LangChain
-* RAG / Pinecone / embeddings
-* Structured LLM output
-* Multi-provider LLM routing and fallbacks
-* Model evaluation and benchmarking
-* CLIP / SigLIP2 / OpenCV
-* Hugging Face
-* BERT / SetFit
-* Semantic search
-* Multimodal AI routing
-* ERPNext
-* Technical documentation
-* Agile / Scrum
-* Client and stakeholder communication
-* Cross-functional product/engineering/design collaboration
+- Translated business requirements into technical specifications, API designs, database models, and workflows.
+- Reduced rework by approximately 30% by identifying requirements misalignment earlier.
+- Managed direct client communication across scope definition, requirement clarification, milestones, demonstrations, and delivery expectations.
+- Supported developer onboarding, internal documentation, and knowledge transfer.
+- Delivered enterprise training across multiple operational departments during ERP implementation.
+- Participated in sprint planning, backlog refinement, daily stand-ups, retrospectives, feature sequencing, and iterative delivery.
+- Produced REST API integration guides, database schemas, deployment checklists, developer wikis, onboarding guides, technical specifications, architecture documentation, and operational documentation.
 
-## Self-study / Theoretical or Not Yet Production-backed
+---
 
-### Product / Strategy
+## 4. Selected Competency Proof
 
-* MoSCoW
-* RICE
-* OKRs
-* GTM Strategy
-* User Research
-* Customer Personas
-* A/B Testing
-* Product Analytics Tools
+| Skill cluster | Strongest available proof | What It Demonstrates |
+|---|---|---|
+| RAG and retrieval evaluation | Pinecone-backed retrieval rebuild; 50+ query internal benchmark; 80% fewer incorrect responses | Demonstrates measured improvement in RAG retrieval quality. |
+| Multi-provider LLM systems | Gemini as a primary provider with Groq/Llama fallback and Pydantic-constrained responses | Demonstrates production-oriented LLM integration, reliability, and structured outputs. |
+| AI agents | LangGraph router-driven multi-agent assistant architecture associated with KittyKat | Demonstrates graph routing and separation of responsibilities across specialized agents. |
+| LLM evaluation and economics | Quality/cost/latency comparison plus token-cost and latency tracking | Demonstrates model-selection discipline across quality, cost, and latency. |
+| Production backend engineering | Python/FastAPI services supporting real applications, including products with 500+ daily active users at YUVABE | Demonstrates production-scale backend engineering. |
+| Async/event processing | Fire-and-forget event tracking, atomic Redis counters, trending/popularity recalculation, leaderboards | Demonstrates asynchronous Python, Redis, background processing, and event-driven design. |
+| Cloud and deployment | Docker, GCP Cloud Run, GitHub Actions, Workload Identity Federation, and an approximately three-minute deployment pipeline | Demonstrates cloud deployment, CI/CD, cloud identity, and production ownership. |
+| Technical product management | Business requirements translated into specs, APIs, databases, and workflows; approximately 30% less rework | Demonstrates technical product management and business-to-technical translation. |
+| ERP implementation | ERPNext delivery across Sales, Purchase, Accounting, Inventory, migration, UAT, go-live, and training; 60% operational-efficiency improvement recorded | Demonstrates enterprise product delivery, implementation, and stakeholder management. |
+| Computer vision | CLIP image search, SigLIP2 classification, OpenCV workflows, and Hugging Face vision-classifier fine-tuning | Demonstrates applied computer vision, embeddings, classification, and multimodal AI. |
+| End-to-end product development | Product discovery through architecture, implementation, deployment, monitoring, and iteration | Demonstrates 0-to-1 product and engineering ownership. |
+| Client and stakeholder delivery | Direct requirement clarification, scope management, milestone demos, documentation, UAT, go-live, and training | Demonstrates client delivery, stakeholder management, implementation, and technical product management. |
 
-### AI / ML
+---
 
-* PyTorch / TensorFlow model training from scratch
-* MLOps
-* ETL / Spark
-* CrewAI
-* Function calling
+## 5. Technologies & Tools
 
-### Backend
+### Core Technologies
 
-* GraphQL
-* SQLAlchemy
-* Prisma ORM
-* Inngest
-* Celery
+Python, FastAPI, Pydantic, Beanie ODM, REST APIs, Async Python, Redis, MongoDB, PostgreSQL, MySQL, SQLite, Firebase Authentication, Firestore, OAuth 2.0, RBAC, TypeScript, JavaScript, Node.js, Express.js, React, Next.js, React Native, Expo, Tailwind CSS, shadcn/ui, Zustand, TanStack Query, OpenAI API, Google Gemini API, Groq API, Llama Models, LangGraph, LangChain, RAG, Pinecone, Embeddings, Semantic Search, Structured Outputs, Prompt Engineering, LLM Evaluation, Model Benchmarking, Hugging Face Transformers, BERT, SetFit, CLIP, SigLIP2, OpenCV, GCP, Cloud Run, Cloud Storage, Cloud Functions, Cloud SQL, Artifact Registry, Docker, GitHub Actions, CI/CD, Workload Identity Federation, Sentry, Git, GitHub, Linux, Bash, Postman, ERPNext, Figma
 
-### Frontend
+### Additional Technologies
 
-* NativeWind
-* Redux
-* React Context
-* Radix UI
-* Recharts
-* Web Accessibility
-* Frontend testing frameworks
+Flask, Supabase, WebAssembly FFmpeg, NumPy, Pandas, Matplotlib, Plotly, Replicate, FLUX, Vision Model Fine-Tuning, Multimodal AI, Notion, GitHub Copilot, Claude API, Claude Code
