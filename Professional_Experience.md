@@ -1,21 +1,21 @@
 # Professional Experience Portfolio
 
-## 1. Founding Engineer | TripKnot - Aneeras LLP
+## 1. Founding Engineer | Aneeras LLP
 **April 2026 - Present | Pondicherry, India | Hybrid**  
 *Early-Stage AI-Assisted Travel-Tech Startup | One of 5 Founding Engineers*  
 **Live Apps in Production:** [Google Play Store](https://play.google.com/store/apps/details?id=com.tripknot.app&pcampaignid=web_share) | [Apple App Store](https://apps.apple.com/in/app/tripknot/id6781707127)
 
 ### Role & Product Ownership
-As a Founding Engineer and core technical team member, the roles of system architecture and product strategy sit under a single unified responsibility. I drove the product execution as the technical product builder for our team. Operating in a dual engineering and product management capacity, I coordinated backend system architectures with user-facing features, successfully building, testing, and releasing the social, AI-assisted travel application to production in five months. I manage the development of five FastAPI backend microservices, lead database modeling, design multi-vertical merchant onboarding portals, configure keyless deployment pipelines, and engineer the mobile feed interfaces.
+As a Founding Engineer and core technical team member, the roles of system architecture and product strategy sit under a single unified responsibility. I drove the product execution as the technical product builder for our team. Operating in a dual engineering and product management capacity, I coordinated backend system architectures with user-facing features, successfully building, testing, and releasing the social, AI-assisted travel application to production in five months. I manage the FastAPI monolith and one purpose-specific microservice, lead database modeling, design multi-vertical merchant onboarding portals, configure keyless deployment pipelines, and engineer the mobile feed interfaces.
 
 ### Technical & Product Achievements
 
 #### Building the AI Itinerary Engine
 I built the core differentiator of the product: an AI-driven travel recommendation engine.
-*   **Itinerary Optimization:** Programmed a place-scoring algorithm that structures personalized day-by-day travel plans, delivering comprehensive itineraries in under nine seconds.
-*   **Place Pool Curation:** Blend popularity scores with rating counts, landmark designations, trending signals, and hidden-gem flags to build a high-quality place pool.
+*   **Itinerary Optimization:** Programmed a place-scoring algorithm that structures personalized day-by-day travel plans, delivering comprehensive itineraries in about 10 seconds.
+*   **Place Pool Curation:** Blend popularity scores with rating counts, landmark designations, trending signals, and hidden-gem flags to build a high-quality place pool; use round-robin category filling and budget-tier filtering that relaxes gracefully when strict filters would return too few places.
 *   **Personalization Jitter:** Implement seed jitter of twelve to eighteen percent on every request to prevent repeat queries from returning identical itineraries, while utilizing an anchor mechanism to prioritize top landmarks.
-*   **LLM Orchestration:** Developed an LLM layer that structures and schedules the curated place pool, utilizing Google Gemini as the primary model behind a Pydantic-constrained JSON schema, with Groq Llama 3 as an automatic fallback, tracking token cost and latency on every generation.
+*   **LLM Orchestration:** Developed an LLM layer that structures and schedules the curated place pool: Gemini uses a Pydantic-derived JSON schema and response validation, while Groq Llama 3 is the automatic fallback with the schema embedded in its prompt and downstream normalization; token cost and latency are tracked on every generation.
 *   **Streamlit Prototyping:** Validated the itinerary engine with a Streamlit proof of concept featuring geo-clustering and greedy day-ordering to guide the production rewrite.
 
 #### Designing Trust and Identity Verification
@@ -28,16 +28,16 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *   **Time-Decayed Popularity Math:** Designed a standalone ranking microservice utilizing time-decay math with a forty-eight-hour half-life and Redis atomic counters to compute trending scores across destinations. Every threshold is configured as a tunable variable rather than a hardcoded constant to ensure scalability.
 
 #### Admin Backend, Business Portal & Monetization
-*   **Admin Console:** Built a Next.js web portal and FastAPI admin console supporting destination, place, and state CRUD operations, CSV content ingestion, and real-time operational analytics dashboards.
+*   **Admin Console:** Built a Next.js web portal and FastAPI admin console supporting destination, place, and state CRUD operations, CSV import and export, real-time operational analytics dashboards, and a two-step host-verification approval flow.
 *   **Compliance-Focused Trip Moderation:** Restructured trip moderation to replace hard deletes with a soft-cancel, audit-logged moderation workflow containing status, reason, and audit fields for compliance.
-*   **Monetization & Pricing Strategy:** Designed the platform's commercial architecture, pairing tiered subscriptions with a commission-only, pay-as-you-earn model, gating listings, analytics depth, and AI prioritization based on subscription tier.
-*   **Onboarding Flows:** Designed multi-step, vertical-specific onboarding flows for hotels and stays, restaurants and cafes, and travel agencies, covering business registrations, food safety licenses, and tax details.
-*   **Automated Commission Billing:** Programmed an automated commission ledger for the pay-as-you-earn plan, calculating and presenting the split of platform commissions and gateway pass-throughs as separate line items for billing transparency.
+*   **Monetization & Pricing Strategy:** Designed the commercial architecture around three subscription tiers—Free, Essential, and Growth—alongside a commission-only, pay-as-you-earn alternative. The tier model controls listing visibility, analytics-dashboard depth, push-notification campaign quotas, featured-search placement, and AI-itinerary placement priority, so commercial placement is connected to the product's scoring and recommendation workflows rather than handled as a separate manual process.
+*   **Vertical-Specific Onboarding Flows:** Designed multi-step onboarding for hotels and stays, restaurants and cafés, and travel agencies. The flows capture shared business and location information, then request the data each vertical actually needs: room types and amenities for stays; cuisine, menus, and FSSAI information for restaurants; and destinations covered and trip categories for agencies. Business-registration, GST, and PAN details are included where applicable, while richer content such as additional photos, full menus, and complete room listings can be gated by subscription tier.
+*   **Commission Model & Billing Transparency:** Defined the commission structure by partner type: hotels and travel agencies use a booking-commission model that decreases from roughly 15% on the Free tier to roughly 5% on Growth, while restaurants remain subscription-led because their typical table-reservation flow does not map cleanly to a paid booking commission. Programmed the pay-as-you-earn billing ledger to show TripKnot's commission, the payment-gateway pass-through, and the platform fee as separate line items rather than collapsing them into one opaque charge.
 
 #### Data Platform, DevOps & Infrastructure
-*   **Applied Vision Moderation Pipeline:** Developed a destination-photo quality vetting pipeline, fine-tuning a Hugging Face vision classifier to screen over 22,400 photos for watermarks, low quality, and AI-generated renders.
-*   **Geospatial Ingestion ETL:** Contributed to a geospatial data ingestion pipeline that parsed and geocoded over 7,480 place records into MongoDB, resolving duplicates and generating search tags.
-*   **CI/CD Pipeline Optimization:** Configured GitHub Actions CI/CD to deploy containerized backend services onto Google Cloud Run, reducing release deployment times to 145 seconds using GCP Workload Identity Federation.
+*   **Applied Vision Moderation Pipeline:** Co-built with a peer a destination-photo quality-vetting pipeline, fine-tuning a Hugging Face vision classifier to screen over 22,000 photos for watermarks, low quality, and AI-generated renders. Built a companion utility that converts and re-hosts approved images as WebP in Google Cloud Storage with structured audit logging.
+*   **Geospatial Ingestion ETL:** Contributed to a geospatial data ingestion pipeline that parsed and geocoded over 7,500 place records into MongoDB, resolving duplicates and generating search tags.
+*   **CI/CD Pipeline Optimization:** Configured GitHub Actions CI/CD to deploy containerized backend services onto Google Cloud Run, reducing release deployment times to about three minutes using GCP Workload Identity Federation.
 
 ### Scale & Codebase Context
 *   The backend codebase consists of approximately 21,000 lines across 185 API endpoints in 23 domain modules.
@@ -45,12 +45,12 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *   The administrative console represents approximately 17,480 lines of code.
 
 ### Key Highlights
-*   Sequenced the itinerary engine's roadmap from a prototype to a production rewrite, engineering a place-scoring algorithm that curates customized place pools in under nine seconds.
+*   Sequenced the itinerary engine's roadmap from a prototype to a production rewrite, engineering a place-scoring algorithm that curates customized place pools in about 10 seconds.
 *   Designed a two-step identity-verification system gating trips between strangers behind manual approval, spanning data models, backend validation, the user app, and the admin review console.
 *   Owned end-to-end product decisions as one of five founding engineers, shipping features across mobile, backend, and web interfaces.
 *   Shaped the platform's monetization model, pairing tiered subscriptions with a commission-only alternative and vertical-specific onboarding for hotels, restaurants, and travel agencies.
 *   Developed a standalone scoring service computing trending and popularity rankings through time-decay, multi-factor models, built to remain stable from pre-launch traffic through scale.
-*   Optimized deployment times to a 145-second average by establishing GitHub Actions CI/CD onto GCP Cloud Run with keyless Workload Identity Federation.
+*   Optimized deployment times to about three minutes by establishing GitHub Actions CI/CD onto GCP Cloud Run with keyless Workload Identity Federation.
 *   Built the admin console and backend from CRUD tools to an analytics dashboard, replacing hard deletes with an audit-logged, two-step trip-moderation flow for compliance.
 
 ---
@@ -60,13 +60,13 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *Technology studio delivering generative AI and multi-agent SaaS products across three B2B products*
 
 ### Role & Systems Ownership
-I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures, serving over five hundred daily active B2B users.
+I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures, serving 600 daily active B2B users.
 
 ### Technical & Product Achievements
 
 #### Choosing and Integrating LLMs
 *   **Structured Evaluation Briefs:** Wrote technical briefs that defined structured evaluation criteria around quality, cost, and API latency to guide production model-selection decisions across OpenAI GPT and Google Gemini.
-*   **Fine-Tuning & Accuracy Optimization:** Extended evaluation pipelines to open-source models and conducted fine-tuning and prompt engineering, improving AI assistant response quality by roughly thirty percent across campaign templates.
+*   **Fine-Tuning & Accuracy Optimization:** Extended evaluation pipelines to open-source models and conducted fine-tuning and prompt engineering, improving AI assistant response quality by roughly 35% across campaign templates.
 *   **AI-Assisted Development:** Integrated terminal utility integrations into daily development workflows to automate boilerplate code, reducing average debugging cycles.
 
 #### Multi-Agent Orchestration
@@ -84,17 +84,16 @@ I grew from an engineering intern to full-time AI Software Engineer, taking on o
 *   **Documentation & Onboarding:** Authored the internal REST API documentation and integration guides, cutting onboarding time for incoming engineers by nine business days.
 
 ### Scale & B2B Context
-*   Successfully owned LLM integration strategy and backend microservices across three live AI products serving 580+ daily active B2B users.
+*   Successfully owned LLM integration strategy and backend microservices across three live AI products serving 600 daily active B2B users.
 
 ### Key Highlights
-*   Grew from shipping features to owning LLM integration strategy across three live AI products serving five hundred daily active B2B users.
-*   Engineered a RAG-based AI assistant on a Pinecone vector search pipeline, cutting incorrect responses by eighty percent across an internal fifty-query benchmark.
-*   Directed model-selection evaluations across multiple providers, improving response quality by roughly thirty percent through fine-tuning and prompt engineering.
+*   Grew from shipping features to owning LLM integration strategy across three live AI products serving 600 daily active B2B users.
+*   Engineered a RAG-based AI assistant on a Pinecone vector search pipeline, reducing incorrect responses by about 80% across an internal fifty-query benchmark.
+*   Directed model-selection evaluations across multiple providers, improving response quality by roughly 35% through fine-tuning and prompt engineering.
 *   Partnered directly with product leads to translate complex business specifications into robust APIs, reducing developer rework by 28.5%.
 *   Evaluated an open-source learning platform against product requirements, then led a from-scratch rebuild on FastAPI, Next.js, and MongoDB after it fell short.
 *   Orchestrated multi-agent workflows on a FastAPI microservices backend to automate marketing campaign operations, cutting manual intervention and lifting user engagement by forty percent.
-*   Integrated Claude Code into daily terminal development workflows to reduce boilerplate coding times by forty percent.
-*   Deployed containerized AI microservices to GCP Cloud Run via GitHub Actions, securing continuous delivery pipelines across three live products serving five hundred daily active B2B users.
+*   Deployed containerized AI microservices to GCP Cloud Run via GitHub Actions, securing continuous delivery pipelines across three live products serving 600 daily active B2B users.
 *   Ran sprint planning, backlog grooming, and retrospective reviews with product and design to align technical feature scope with user-facing goals on an agile team.
 *   Authored the internal REST API documentation and integration guides, cutting frontend onboarding times by nine business days.
 

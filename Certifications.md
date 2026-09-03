@@ -19,8 +19,8 @@ This certification validates a practical and theoretical understanding of autono
 
 ---
 
-## 2. OpenCV Bootcamp
-**Issuing Organization:** OpenCV.org  
+## 2. FREE OpenCV Bootcamp
+**Issuing Organization:** OpenCV University  
 *Completed: July 2024 | Credential ID: Verified Completion Certificate 2740f961bba645d9ab1923df013c9e99*
 
 ### Certification Overview & Covered Domains
@@ -30,9 +30,9 @@ An intensive bootcamp validating deep technical proficiency in computer vision, 
 *   **Machine Learning for Vision:** Training and executing pre-trained classifiers for image detection and facial recognition.
 
 ### Direct Application in Her Work
-*   **TripKnot:** Contributed to an ETL pipeline to filter and geocode over 7,480 places, integrating OpenCV techniques to analyze and preprocess destination photo aspect ratios, color balances, and alignments.
+*   **TripKnot:** Contributed to an ETL pipeline to filter and geocode over 7,500 places, integrating OpenCV techniques to analyze and preprocess destination photo aspect ratios, color balances, and alignments.
 *   **KittyKat AI:** Integrated computer vision model structures to isolate and extract clean product assets from complex background imagery.
 
 ### Key Highlights
-*   Completed **OpenCV Bootcamp** certification, validating expertise in image processing, object detection, and visual model configurations.
+*   Completed **FREE OpenCV Bootcamp** certification, validating expertise in image processing, object detection, and visual model configurations.
 *   Leveraged OpenCV credentials to optimize image-cropping algorithms and coordinate visual assets inside production data pipelines.

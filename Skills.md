@@ -44,7 +44,7 @@ ERPNext, ERP Implementation, Business Process Mapping, Workflow Configuration, W
 
 ### Supporting Tools
 
-Notion, GitHub Copilot, Claude Code, Claude API, Matplotlib, Plotly, Supabase
+Notion, uv, GitHub Copilot, Claude Code, Claude API, Matplotlib, Plotly, Supabase
 
 ---
 
@@ -343,7 +343,7 @@ Delivered ERPNext implementation across requirements, configuration, UAT, go-liv
 | Multi-provider LLM systems | Gemini as a primary provider with Groq/Llama fallback and Pydantic-constrained responses | Demonstrates production-oriented LLM integration, reliability, and structured outputs. |
 | AI agents | LangGraph router-driven multi-agent assistant architecture associated with KittyKat | Demonstrates graph routing and separation of responsibilities across specialized agents. |
 | LLM evaluation and economics | Quality/cost/latency comparison plus token-cost and latency tracking | Demonstrates model-selection discipline across quality, cost, and latency. |
-| Production backend engineering | Python/FastAPI services supporting real applications, including products with 500+ daily active users at YUVABE | Demonstrates production-scale backend engineering. |
+| Production backend engineering | Python/FastAPI services supporting real applications, including products with 600 daily active B2B users at YUVABE | Demonstrates production-scale backend engineering. |
 | Async/event processing | Fire-and-forget event tracking, atomic Redis counters, trending/popularity recalculation, leaderboards | Demonstrates asynchronous Python, Redis, background processing, and event-driven design. |
 | Cloud and deployment | Docker, GCP Cloud Run, GitHub Actions, Workload Identity Federation, and an approximately three-minute deployment pipeline | Demonstrates cloud deployment, CI/CD, cloud identity, and production ownership. |
 | Technical product management | Business requirements translated into specs, APIs, databases, and workflows; approximately 30% less rework | Demonstrates technical product management and business-to-technical translation. |
@@ -362,4 +362,4 @@ Python, FastAPI, Pydantic, Beanie ODM, REST APIs, Async Python, Redis, MongoDB, 
 
 ### Additional Technologies
 
-Flask, Supabase, WebAssembly FFmpeg, NumPy, Pandas, Matplotlib, Plotly, Replicate, FLUX, Vision Model Fine-Tuning, Multimodal AI, Notion, GitHub Copilot, Claude API, Claude Code
+Flask, Supabase, WebAssembly FFmpeg, NumPy, Pandas, Matplotlib, Plotly, Replicate, FLUX, Vision Model Fine-Tuning, Multimodal AI, Notion, uv, GitHub Copilot, Claude API, Claude Code
