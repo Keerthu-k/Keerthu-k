@@ -126,6 +126,8 @@ AuroGurukul is an AI-driven learning management platform designed to deliver per
 ---
 
 ## 5. Finmo
+**Repository:** [Finance-Monitor](https://github.com/Keerthu-k/Finance-Monitor)
+
 **Full-Stack Expense Tracker**  
 *Independent Project | Solo Build*
 
@@ -152,6 +154,8 @@ Finmo is a full-stack expense tracker built solo to log, manage, and review fina
 ---
 
 ## 6. OfferTracker
+**Repositories:** [Web application](https://github.com/Keerthu-k/Offertracker) · [Backend service](https://github.com/Keerthu-k/Offertracker-Backend)
+
 **Job Search Career-Intelligence Platform**  
 *Independent Project*
 
@@ -189,6 +193,8 @@ Soulfy is an independent exploration into client-side audio rendering and state 
 ---
 
 ## 8. Semantic Search Demo
+**Repository:** [Text-Embeddings](https://github.com/Keerthu-k/Text-Embeddings)
+
 **Embedding Cosine-Similarity Evaluator**  
 *Independent Project*
 
