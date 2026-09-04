@@ -9,4 +9,4 @@
 
 ## Open to Opportunities
 
-Based in Bengaluru, India. Open to full-time, freelance, permanent, remote, hybrid, or onsite opportunities. Keen to contribute to AI, Backend, and Full-Stack development projects, especially in the domains of Generative AI, SaaS, and product development.
+Based in Pondicherry, India. Open to full-time, freelance, permanent, remote, hybrid, or onsite opportunities. Keen to contribute to AI, Backend, and Full-Stack development projects, especially in the domains of Generative AI, SaaS, and product development.

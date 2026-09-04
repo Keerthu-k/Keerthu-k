@@ -11,9 +11,6 @@ An advanced postgraduate program covering modern computer science systems, datab
 *   **Machine Learning & Neural Networks:** Early-stage academic foundation in model evaluation, training datasets, and numerical computations.
 *   **Object-Oriented Software Engineering:** Modern software pattern modeling, unified modeling language (UML), and agile software practices.
 
-### Academic Projects & Highlights
-*   **Capstone Research - Semantic Data Retrieval:** Modeled an academic information retrieval tool to analyze semantic similarity across document corpora, which later inspired her production work with Pinecone and cosine similarity.
-
 ### Key Highlights
 *   **M.Sc. in Computer Science**  -  Pondicherry University (7.89 CGPA, 2020–2022)  -  Advanced studies in software systems, database engineering, and algorithmic optimization.
 *   Leveraged M.Sc. academic foundation in computer science to build production-grade, schema-constrained FastAPI web services and complex data models.

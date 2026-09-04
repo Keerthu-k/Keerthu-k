@@ -21,7 +21,6 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 #### Designing Trust and Identity Verification
 *   **Verification Flows:** Designed a database validation system and admin console to verify traveler identities for collaborative trips, ensuring compliance with verification data structures.
 *   **Identity Verification Database:** Designed and built an Aadhaar and KYC identity-verification database and administrative review console for group-trip traveler safety.
-*   **Storage Authentication Bug Resolution:** Diagnosed and fixed a Google Cloud Storage upload authentication error by transitioning to Firebase service-account-key authentication following a public access error, restoring secure, seamless user-profile photo uploads.
 
 #### Standalone Scoring Service
 *   **Popularity Math:** Designed a standalone scoring service that computes trending and popularity rankings in dependency order across places, destinations, and states.
@@ -35,9 +34,9 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *   **Commission Model & Billing Transparency:** Defined the commission structure by partner type: hotels and travel agencies use a booking-commission model that decreases from roughly 15% on the Free tier to roughly 5% on Growth, while restaurants remain subscription-led because their typical table-reservation flow does not map cleanly to a paid booking commission. Programmed the pay-as-you-earn billing ledger to show TripKnot's commission, the payment-gateway pass-through, and the platform fee as separate line items rather than collapsing them into one opaque charge.
 
 #### Data Platform, DevOps & Infrastructure
-*   **Applied Vision Moderation Pipeline:** Co-built with a peer a destination-photo quality-vetting pipeline, fine-tuning a Hugging Face vision classifier to screen over 22,000 photos for watermarks, low quality, and AI-generated renders. Built a companion utility that converts and re-hosts approved images as WebP in Google Cloud Storage with structured audit logging.
-*   **Geospatial Ingestion ETL:** Contributed to a geospatial data ingestion pipeline that parsed and geocoded over 7,500 place records into MongoDB, resolving duplicates and generating search tags.
-*   **CI/CD Pipeline Optimization:** Configured GitHub Actions CI/CD to deploy containerized backend services onto Google Cloud Run, reducing release deployment times to about three minutes using GCP Workload Identity Federation.
+*   **Applied Vision Moderation Pipeline:** Co-built with a peer a destination-photo quality-vetting pipeline, evolving it from OCR and frequency-analysis watermark checks to a fine-tuned Hugging Face vision classifier after tuning against false positives on food photography. The pipeline screens over 22,000 photos for watermarks, low quality, and AI-generated renders; a companion utility converts and re-hosts approved images as WebP in Google Cloud Storage with structured audit logging.
+*   **Geospatial Ingestion ETL:** Contributed to a geospatial data ingestion pipeline that parsed and geocoded over 7,500 place records into MongoDB, resolving duplicates and generating search tags. The tool pushes validated data through authenticated backend APIs, with dry-run and duplicate-detection support rather than direct database writes.
+*   **CI/CD Pipeline Optimization:** Configured GitHub Actions CI/CD to deploy containerized backend services onto Google Cloud Run, with automated staging deployment and manual-gated production promotion. Used GCP Workload Identity Federation to reduce release deployment times to about three minutes without long-lived cloud credentials.
 
 ### Scale & Codebase Context
 *   The backend codebase consists of approximately 21,000 lines across 185 API endpoints in 23 domain modules.
