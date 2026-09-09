@@ -21,6 +21,7 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 #### Designing Trust and Identity Verification
 *   **Verification Flows:** Designed a database validation system and admin console to verify traveler identities for collaborative trips, ensuring compliance with verification data structures.
 *   **Identity Verification Database:** Designed and built an Aadhaar and KYC identity-verification database and administrative review console for group-trip traveler safety.
+*   **Storage Authentication Bug Resolution:** Diagnosed and fixed a Google Cloud Storage upload authentication error by transitioning to Firebase service-account-key authentication following a public access error, restoring secure, seamless user-profile photo uploads.
 
 #### Standalone Scoring Service
 *   **Popularity Math:** Designed a standalone scoring service that computes trending and popularity rankings in dependency order across places, destinations, and states.
@@ -37,6 +38,7 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *   **Applied Vision Moderation Pipeline:** Co-built with a peer a destination-photo quality-vetting pipeline, evolving it from OCR and frequency-analysis watermark checks to a fine-tuned Hugging Face vision classifier after tuning against false positives on food photography. The pipeline screens over 22,000 photos for watermarks, low quality, and AI-generated renders; a companion utility converts and re-hosts approved images as WebP in Google Cloud Storage with structured audit logging.
 *   **Geospatial Ingestion ETL:** Contributed to a geospatial data ingestion pipeline that parsed and geocoded over 7,500 place records into MongoDB, resolving duplicates and generating search tags. The tool pushes validated data through authenticated backend APIs, with dry-run and duplicate-detection support rather than direct database writes.
 *   **CI/CD Pipeline Optimization:** Configured GitHub Actions CI/CD to deploy containerized backend services onto Google Cloud Run, with automated staging deployment and manual-gated production promotion. Used GCP Workload Identity Federation to reduce release deployment times to about three minutes without long-lived cloud credentials.
+*   **Application Monitoring:** Used Sentry across the backend and mobile application for error and application monitoring.
 
 ### Scale & Codebase Context
 *   The backend codebase consists of approximately 21,000 lines across 185 API endpoints in 23 domain modules.
@@ -59,7 +61,7 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 *Technology studio delivering generative AI and multi-agent SaaS products across three B2B products*
 
 ### Role & Systems Ownership
-I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures, serving 500+ daily active B2B users.
+I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, and adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures, serving 500+ daily active B2B users. I also worked hands-on on the frontend interfaces for AuroGurukul and KittyKat as part of their cross-stack delivery.
 
 ### Technical & Product Achievements
 
