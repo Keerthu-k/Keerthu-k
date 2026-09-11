@@ -58,10 +58,10 @@ I built the core differentiator of the product: an AI-driven travel recommendati
 
 ## 2. AI Software Engineer | YUVABE
 **October 2023 - March 2026 | Auroville, Tamil Nadu | Onsite**  
-*Technology studio delivering generative AI and multi-agent SaaS products across three B2B products*
+*Technology studio delivering generative AI and multi-agent systems across three live products, including one B2B platform*
 
 ### Role & Systems Ownership
-I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, and adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures, serving 500+ daily active B2B users. I also worked hands-on on the frontend interfaces for AuroGurukul and KittyKat as part of their cross-stack delivery.
+I grew from an engineering intern to full-time AI Software Engineer, taking on ownership of Large Language Model integration strategy, multi-agent conversational design, and adaptive learning architectures. I partnered directly with product leads to translate complex business specifications into robust APIs and database structures across three live products. One B2B platform served 500+ daily active business users. I also worked hands-on on the frontend interfaces for AuroGurukul and KittyKat as part of their cross-stack delivery.
 
 ### Technical & Product Achievements
 
@@ -85,16 +85,16 @@ I grew from an engineering intern to full-time AI Software Engineer, taking on o
 *   **Documentation & Onboarding:** Authored the internal REST API documentation and integration guides, cutting onboarding time for incoming engineers by nine business days.
 
 ### Scale & B2B Context
-*   Successfully owned LLM integration strategy and backend microservices across three live AI products serving 500+ daily active B2B users.
+*   Owned LLM integration strategy and backend microservices across three live AI products, including one B2B platform serving 500+ daily active business users.
 
 ### Key Highlights
-*   Grew from shipping features to owning LLM integration strategy across three live AI products serving 500+ daily active B2B users.
+*   Grew from shipping features to owning LLM integration strategy across three live AI products, including one B2B platform serving 500+ daily active business users.
 *   Engineered a RAG-based AI assistant on a Pinecone vector search pipeline, reducing incorrect responses by about 80% across an internal fifty-query benchmark.
 *   Directed model-selection evaluations across multiple providers, improving response quality by roughly 35% through fine-tuning and prompt engineering.
 *   Partnered directly with product leads to translate complex business specifications into robust APIs, reducing developer rework by 30%.
 *   Evaluated an open-source learning platform against product requirements, then led a from-scratch rebuild on FastAPI, Next.js, and MongoDB after it fell short.
 *   Orchestrated multi-agent workflows on a FastAPI microservices backend to automate marketing campaign operations, cutting manual intervention and lifting user engagement by forty percent.
-*   Deployed containerized AI microservices to GCP Cloud Run via GitHub Actions, securing continuous delivery pipelines across three live products serving 500+ daily active B2B users.
+*   Deployed containerized AI microservices to GCP Cloud Run via GitHub Actions across three live products, including one B2B platform serving 500+ daily active business users.
 *   Ran sprint planning, backlog grooming, and retrospective reviews with product and design to align technical feature scope with user-facing goals on an agile team.
 *   Authored the internal REST API documentation and integration guides, cutting frontend onboarding times by nine business days.
 
