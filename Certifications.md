@@ -10,9 +10,6 @@ This certification validates a practical and theoretical understanding of autono
 *   **Tool Calling & Execution:** Developing models capable of using external tools (web browsers, calculators, databases) via Python functions.
 *   **System Reasoning:** Understanding the differences between chain-of-thought, self-reflection, and multi-agent systems.
 
-### Direct Application in Her Work
-*   **KittyKat AI:** Applied agentic routing and orchestration concepts to build a LangGraph-powered platform, dividing campaign tasks among specialist agent nodes (branding, prompt generation, asset creation).
-
 ### Key Highlights
 *   Certified in Hugging Face **AI Agents Fundamentals**, validating proficiency in designing multi-agent workflows, tool execution, and self-reflection loops.
 *   Applied advanced agentic principles from Hugging Face credentials to orchestrate LangGraph routing graphs across multiple specialized LLM agents.
@@ -28,10 +25,6 @@ An intensive bootcamp validating deep technical proficiency in computer vision, 
 *   **Image Processing & Manipulation:** Working with image structures, matrices, transforms, color spaces, histograms, and thresholds.
 *   **Computer Vision Techniques:** Edge detection, contour analysis, object tracking, and feature extraction.
 *   **Machine Learning for Vision:** Training and executing pre-trained classifiers for image detection and facial recognition.
-
-### Direct Application in Her Work
-*   **TripKnot:** Contributed to an ETL pipeline to filter and geocode over 7,500 places, integrating OpenCV techniques to analyze and preprocess destination photo aspect ratios, color balances, and alignments.
-*   **KittyKat AI:** Integrated computer vision model structures to isolate and extract clean product assets from complex background imagery.
 
 ### Key Highlights
 *   Completed **FREE OpenCV Bootcamp** certification, validating expertise in image processing, object detection, and visual model configurations.
