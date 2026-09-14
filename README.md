@@ -1,6 +1,6 @@
 # 🌷 Hi, I’m **Keerthana K**
 
-I’m an **AI/ML Developer** with 3+ years of experience building backend systems and delivering AI features in production environments.
+I’m an AI engineer** with 3+ years of experience building software products, backend systems, and applied AI features in production environments.
 
 I build backend systems that bring **applied AI** into real products. From designing scalable architectures to developing intelligent services, my focus is on building reliable systems that translate ideas into working solutions. I’ve worked with *generative AI*, *agent-based workflows*, and *vision-driven applications* deployed in production.
 

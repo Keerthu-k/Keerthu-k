@@ -103,11 +103,13 @@ Brand and marketing teams needed more than an isolated image generator. They nee
 *   **Conversational Frontend:** Worked hands-on on the frontend that translated the agent graph into a single guided conversation for non-technical marketing users, keeping specialist routing and state changes behind the interface.
 *   **SaaS Infrastructure:** Designed the backend for multi-tenant SaaS scale, introducing credit-tracking limits, Firebase Authentication, and real-time client updates over Server-Sent Events.
 *   **Model & Prompt Quality:** Extended model-evaluation workflows with fine-tuning and prompt engineering, improving assistant response quality by roughly 35% across evaluated campaign templates.
+*   **Limited Backend Testing:** Used pytest briefly, to support backend tests. This was a small supporting task, not ownership of the product's testing strategy or comprehensive coverage.
 
 ### Technology Stack
 *   **Core Backend:** FastAPI, Python, MongoDB, Pydantic, Server-Sent Events
 *   **AI & Agents:** LangGraph, LangChain, OpenAI API, Replicate API, CLIP Vector Search, Hugging Face
 *   **Databases & Cloud:** MongoDB, Firebase Auth, Google Cloud Platform
+*   **Testing:** pytest (limited)
 
 ### Key Highlights
 *   Worked on the creative platform from the start of the client engagement, helping build the complete digital product from early product definition and architecture through implementation and iteration.
@@ -142,11 +144,13 @@ The core product challenge was to support different participants and feedback lo
 *   **Adaptive Assessment Engine:** Coded the logic for assessments that dynamically adjust question difficulty based on real-time student performance, ensuring personalized student pace and learning curves.
 *   **Test Management Module:** Built a comprehensive evaluation framework supporting test creation, question bank categorization, automated grading, result submission, and cohort performance analytics.
 *   **Security & Auth:** Configured email verification, password reset, and role-based access controls separating student profiles from administrative and teaching staff.
+*   **Limited Backend Testing:** Used pytest briefly, to support backend tests. This was a small supporting task, not ownership of the product's testing strategy or comprehensive coverage.
 
 ### Technology Stack
 *   **Frontend:** Next.js, React, Tailwind CSS, shadcn UI
 *   **Backend:** FastAPI, Python, MongoDB, Pydantic, Pinecone Vector DB
 *   **Authentication:** Firebase Auth
+*   **Testing:** pytest (limited)
 
 ### Key Highlights
 *   Worked on the adaptive-learning platform from the start of the client engagement, helping move the complete digital product from initial requirements and build-vs-buy evaluation into a custom platform.

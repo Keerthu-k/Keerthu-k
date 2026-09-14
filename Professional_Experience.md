@@ -104,6 +104,9 @@ This client product serves learners through structured academic programs, mentor
 *   **Adaptive Testing:** Coded database logic for test-taking workflows that dynamically adjust question difficulty based on student performance, then shipped the complete test-management and grading module.
 *   **Learner and Staff Workflows:** Built authentication and role boundaries for students, teachers, and administrators so learning, assessment, and management tasks could operate in one platform without exposing the same controls to every user.
 
+#### Limited Backend Testing
+*   **AI-Assisted pytest Support:** Used pytest briefly on the creative-platform and adaptive-learning products during my full-time YUVABE role, with heavy AI assistance, to support backend test creation and execution. This was a small supporting contribution, not ownership of either product's testing strategy or comprehensive test coverage.
+
 #### Shipping and Supporting in Production
 *   **Containerized Cloud Deployments:** Deployed containerized microservices on Google Cloud Platform Cloud Run utilizing GitHub Actions CI/CD to maintain continuous delivery pipelines across three live products.
 *   **Documentation & Onboarding:** Authored the internal REST API documentation and integration guides, cutting onboarding time for incoming engineers by nine business days.

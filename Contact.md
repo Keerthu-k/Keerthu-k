@@ -6,6 +6,7 @@
 - [GitHub](https://github.com/Keerthu-k)
 - [LinkedIn](https://www.linkedin.com/in/keerthukarthikesan/)
 - [keerthukarthikesan4925@gmail.com](mailto:keerthukarthikesan4925@gmail.com)
+- Phone: +91 6379062862
 
 ## Open to Opportunities
 

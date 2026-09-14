@@ -134,6 +134,7 @@ Notion, uv, GitHub Copilot, Claude Code, Claude API, Matplotlib, Plotly, Supabas
 | Data modeling | Database Design, Data Modeling, NoSQL Schema Design, Relational Schema Design | Designed MongoDB and relational database structures for application and multi-tenant product requirements. |
 | Redis-backed utilities | Redis, Caching, Background Processing, Event-Driven Processing | Used Redis for caching, counters, event tracking, and supporting asynchronous or scheduled backend workflows. |
 | Authentication and authorization | Authentication, Authorization, OAuth 2.0, RBAC, Multi-Tenant Authorization | Implemented identity, role, administrative, and tenant-aware access-control workflows. |
+| Limited backend testing | pytest | Used pytest briefly on KittyKat and AuroGurukul during the full-time YUVABE role. Did not include ownership of overall test strategy or comprehensive coverage. |
 | Production ownership | Production Engineering, Deployment, Monitoring, Incident Debugging | Resolved production issues and owned service architecture, deployment, monitoring, and ongoing operations. |
 
 #### Languages, Frameworks & Data Technologies
